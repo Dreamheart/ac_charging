@@ -1,0 +1,470 @@
+#ifndef __GLOBALS_H__
+#define __GLOBALS_H__
+
+#include "lpc177x_8x_rtc.h"
+
+#define CANRX_BUFFER_SIZE				128
+
+#define GPIO_USED_INTR_PORT			(2)
+#define GPIO_USED_INTR_PIN			(10)
+#define GPIO_USED_INTR_MASK			(1 << GPIO_USED_INTR_PIN)
+
+#define MODMAX  30+1
+#define SOEMAX      0x10
+#define SOEYCMAX    0x80
+#define SOEYCSHT    0x08
+#define CASEBAT        94
+#define CASETEMP       94
+//-----------------------------------------------------------------------------
+#define  ERR_AVLOW        0x01     //相输出电压低
+#define  ERR_BVLOW        0x02     //B相输出电压低
+#define  ERR_CVLOW        0x03     //C相输出电压低
+#define  ERR_VLOW         0x04     // 输出电压低( 表示LLC任一相输出电压低）
+
+#define  ERR_AVHIGH       0x05     //A相输出电压高
+#define  ERR_BVHIGH       0x06     //B相输出电压高
+#define  ERR_CVHIGH       0x07     //C相输出电压高
+#define  ERR_VHIGH        0x08     //输出电压高( 表示LLC任一相输出电压高）
+
+#define  ERR_AIHIGH       0x09     //A相输出电流高
+#define  ERR_BIHIGH       0x0A     //B相输出电流高
+#define  ERR_CIHIGH       0x0B     //C相输出电流高
+#define  ERR_IHIGH        0x0C     //输出电流高(表示LLC任一相输出电流高）
+
+#define  ERR_AIBALANCE    0x0D     //A相均衡电流故障
+#define  ERR_BIBALANCE    0x0E     //B相均衡电流故障
+#define  ERR_CIBALANCE    0x0F     //C相均衡电流故障
+#define  ERR_IBALANCE     0x10     //均衡电流故障
+
+#define  ERR_SHORT        0x11     //短路故障
+#define  ERR_SSSHORT      0x12     //软启动短路故障
+#define  ERR_INITSHORT    0x13     //初始化时短路故障
+
+//#define  ERR_IBALANCE     0x20     //电池电压低
+
+//...
+//-----------------------------------------------------------------------------
+//PARAMETER EVENT TYPE
+#define  PARA_GRPS        0x00     // 充电模块组数
+#define  PARA_GRP_CNT     0x01     // 组内模块个数
+#define  PARA_GRP_ID      0x02     // 组内模块ID
+#define  PARA_MAXV        0x03     // 组模块输出最高电压
+#define  PARA_MAXI        0x04     // 组模块输出最高电流
+#define  PARA_MODE        0x05     // 工作模式
+
+#define  PARA_MAXVS       0x07     // 单体电池最高电压
+#define  PARA_LIMITV      0x08     // 电池电压检测限值
+#define  PARA_FLOATI      0x09     // 浮充电流
+#define  PARA_EVENI       0x0A     // 均充电流
+#define  PARA_IFETOF      0x0B     // 均充转浮充条件
+#define  PARA_IFFTOE      0x0C     // 浮充转均充条件
+#define  PARA_DISCHRGI    0x0D     // 放电大电流限值 
+#define  PARA_LEFTT       0x0E     // 存放时间 
+//-----------------------------------------------------------------------------
+/*
+ 充电记录事件数据结构
+*/
+typedef struct
+{
+    uint8_t    time_s[6];     // 充电开始时间
+    uint8_t    time_e[6];     // 充电结束时间
+    uint8_t    icsn[16];      // 充电卡号ASCII码
+    uint8_t    mtrkwh1[4];    // 充电前电度表示数
+    uint8_t    mtrkwh2[4];    // 充电后电度表示数
+    uint8_t    mtrkwh[4];     // 充电电量
+    uint8_t    money[4];      // 充电金额
+    uint8_t    money1[4];     // 充电前卡余额
+    uint8_t    money2[4];     // 充电后卡余额
+    uint8_t    soc;           // 充电后民池SOC
+    uint8_t    batsn[16];     // 电池箱唯一编号
+    uint8_t    reserve[5];    // 预留字段
+} SOERCD;
+
+/*
+ 报警记录事件数据结构
+*/
+typedef struct
+{
+    uint8_t    type[1];       // 事件类型
+    uint8_t    trigger;       // 触发条件
+    uint8_t    time_s[6];     // 事件产生时间
+} ALARMEVT;
+
+
+typedef struct
+{
+    uint32_t ChgDelay; //定时时间，定时结束后开始充电
+    uint16_t ChgMode;  //立即充或定时充
+    uint16_t ChgEnergy;//给定电量
+    uint16_t ChgTime;  //给定充电时间
+    uint16_t ChgMoney; //给定充电金额
+    uint16_t Sta;      //充电或停止
+    uint16_t ChgVol;   //充电电压，发给充电模块的电压
+    uint16_t ChgCur;   //充电电流，发给充电模块的电流
+    uint16_t MaxOutVol; //最大充电电压
+    uint16_t MaxOutCur; //最大充电电流
+    uint16_t TargetVol; //当前目标电压
+    uint16_t TargetCur; //当前目标电流
+} CHGCTRL;
+
+/*
+校时定义
+*/
+typedef struct
+{
+    uint8_t   year;
+    uint8_t   month;
+    uint8_t   day;
+    uint8_t   hour;
+    uint8_t   minute;
+    uint8_t   second;
+} TIME;
+/*
+ 参数更改记录事件数据结构
+*/
+typedef struct
+{
+    uint8_t    type[1];       // 参数类型
+    uint8_t    time_s[6];     // 事件产生时间
+    uint8_t    value_b[4];    // 参数更改前值
+    uint8_t    value_a[4];    // 参数更改后值
+} PARAEVT;
+
+/*
+ 配置参数数据结构
+*/
+typedef struct
+{
+    uint16_t   grps;          // 充电模块组数
+    uint16_t   grp_cnt;       // 组内模块个数
+    uint16_t   grp_ID;        // 组内模块ID
+    uint16_t   maxv;          // 组模块输出最高电压
+    uint16_t   maxi;          // 组模块输出最高电流
+    uint16_t   mode;          // 工作模式
+    uint16_t   battype;
+    uint16_t   maxv_s;        // 单体电池最高电压
+    uint16_t   minv_s;        // 单体电池最高电压
+    uint16_t   limit_v;       // 电池电压检测限值
+    uint16_t   float_i;       // 浮充电流
+    uint16_t   even_i;        // 均充电流
+    uint16_t   if_EtoF;       // 均充转浮充条件
+    uint16_t   if_FtoE;       // 浮充转均充条件
+    uint16_t   dischrgi;      // 放电大电流限值
+    uint16_t   left_t;        // 存放时间
+} PARACONFIG;
+
+/*
+ * 系统目前最多可以接 MODMAX 个充电机，每个充电机包含1个充电模块和一个BMS
+ * 每个充电机包含如下数据 (Little endian):
+ *
+ */
+//yancheng
+__packed struct Mod
+{
+    //DATA OF CHARGE
+
+    uint16_t  mdlv;       // 模块输出电压
+    uint16_t  mdli;       // 模块输出电流
+    uint16_t  mdltmp;     // 模块温度
+    uint16_t  mdlerr;     // 模块故障状态
+    uint16_t  mdlsts;     // 模块运行状态
+    //BCL(5)  电池充电需求报文
+    uint16_t  mndv;       //电压需求1.2                                0.1--3947
+    uint16_t  mndi;       //电流需求3.2                            0.1+800--7600    
+    uint16_t  measv;      //电压测量值1.2                              0.1--3500
+    uint16_t  measi;      //电流测量值3.2                          0.1+800--8000    
+/*
+    //BRM(24)   DATA OF BMS BMS和车辆辨识报文
+    uint8_t   date[3];    //电池组生产日期 1.3
+    uint8_t   battype;    //电池类型 4.1
+    uint8_t   name[4];    //电池厂家名字5.4
+    uint8_t   sn[4];      //电池组序号(LECU唯一编号)9.4
+    uint8_t   cnt[3];     //电池组充电次数13.3
+    uint8_t   iden;       //电池组产权标识16.1
+    uint8_t   vsn[2];     //BMS通讯协议版本号 17.2
+    uint16_t  AH;         //整车蓄电池组额定容量/Ah19.2
+    uint16_t  bodys;      //整车蓄电池组串联数21.2
+    uint16_t  cnum;       //蓄电模块串联数23.12bit.(24.3)
+    uint8_t   bnum;       //蓄电池模块并联数 (24.4).(0.5).4bit
+
+    //VIN(8)
+    uint8_t   vehicle[8]; //车辆识别信息
+    //BCP(12)
+    uint16_t  maxvc;      //蓄电池模块最高允许充电电压1.2             0.01--4190
+    uint16_t  maxic;      //蓄电池模块最高允许充电电流3.2        0.1+3200--32700
+    uint8_t   maxahc;     //最大允许充电容量5.1                            1%--0
+    uint16_t  maxtvc;     //最高允许充电总电压6.2                     0.1--65535
+    uint8_t   maxtmpc;    //最高允许温度8.1                             +40--255
+    uint16_t  restah;     //整车蓄电池估计剩余容量9.2                       1--0
+    uint16_t  volt;       //整车蓄电池总电压11.2                          0.1--0
+    //BRO(1)BMS准备就绪报文
+    uint8_t   bro;  //0-不能充电 2-未准备好 4-完成充电准备
+    //BCL(5)  电池充电需求报文
+    uint16_t  mndv;       //电压需求1.2                                0.1--3947
+    uint16_t  mndi;       //电流需求3.2                            0.1+800--7600
+    uint8_t   modec;      //充电模式5.1   1:恒压;2:恒流
+
+    //BCS(8) 电池充电总状态报文，BMS发送给充电机
+    uint16_t  measv;      //电压测量值1.2                              0.1--3500
+    uint16_t  measi;      //电流测量值3.2                          0.1+800--8000
+    uint8_t   mintmp;     //电池组最低温度5.1
+    uint8_t   maxtmp;     //电池组最高温度6.1
+    uint8_t   soc;        //当前荷电状态7.1
+    uint8_t   timec;      //估计充满时间8.1
+    //BS1(6) 充电阶段，BMS发送给充电机的电池状态信息
+    uint16_t  maxvg;      //最高蓄电池模块电压及组号1.2               0.01--3303
+    uint8_t   maxvgnr;    //最高蓄电池模块电压的蓄电池编号3.1
+    uint8_t   maxtmpg;    //最高蓄电池组温度4.1
+    uint8_t   maxtmpgnr;  //最高温度检测点编号5.1
+    uint8_t   insts;      //蓄电池模块电压过高6.1.1
+    //蓄电池模块电压过低6.1.2
+    //蓄电池模块电池荷电SOC过高6.1.3
+    //蓄电池模块电池荷电SOC过低6.1.4
+    //蓄电池模块充电过电流6.1.5
+    //蓄电池组内温度过高6.1.6
+    //蓄电池均衡故障6.1.7
+    //蓄电池匹配故障6.1.8
+
+    //BS2(1)
+    uint8_t   bs2;        //绝缘状态1.1.1                           --0b00101001
+    //高压连接状态1.1.2
+    //看门狗状态度1.1.3
+    //充电状态1.1.4
+    //BMS生命信息1.1.5
+    //BMV(2*N)
+    uint16_t  volts[94];//蓄电池模块#N电压1.N*2(511)               0.01--3874
+    //BMT(1*N)
+    uint8_t   tmps[94]; //蓄电池组#N温度1.N*1(16)
+    //BSOC(1*N)
+    uint8_t   socs[1]; //蓄电池组#N SOC1.N*1(16)
+    //BAV(1*N)
+    uint8_t   avv[1];  //蓄电池组#N平均模块电压1.N*1(16)
+    //BST(3)
+    uint8_t   why;        //BMS终止充电原因1.1  bit0--达到需求SOC目标值 bit1--达到总电压设置值   bit2--达到单体电压设置值
+    uint8_t   bsterr1;    //BMS终止充电故障代码2.1
+    uint8_t   bsterr2;    //BMS终止充电错误代码3.1
+    //BSD(8)
+    uint8_t   esoc1;      //初始荷电状态SOC1.1
+    uint8_t   esoc2;      //终止荷电状态SOC2.1
+    uint16_t  eminv;      //蓄电池单体最低电压3.2
+    uint16_t  emaxv;      //蓄电池组单体最高电压5.2
+    uint8_t   emintmp;    //蓄电池组最低温度7.1
+    uint8_t   emaxtmp;    //蓄电池组最高温度8.1
+
+    uint8_t   jdq;
+    uint16_t  chargT;
+    uint16_t  SingleAlarmMaxV;
+    uint16_t  SingleCutMaxV;
+    uint16_t  SingleAlarmMinV;
+    uint16_t  SingleCutMinV;
+    uint16_t  MutualDiff;
+    uint16_t  MaxChgCur;
+    uint16_t  MaxDisChgCur;
+  */
+    uint8_t   jdq;    
+  uint16_t maxou,minou,maxoi;
+  /*CRM*/
+  uint8_t   ChgNum;      // 充电机编号
+  uint8_t   ChgArea[6];  // 充电机所在区域编码
+  /*BRM*/
+  uint8_t   BMSver[3];   // BMS通讯协议版本号
+  uint8_t   BatType;     // 电池类型
+  uint8_t   BatcapacityL;// 整车蓄系统额定容量/Ah
+  uint8_t   BatcapacityH; 
+  uint8_t   BattotleVL;	 // 蓄电池系统额定总电压
+  
+  uint8_t   BattotleVH;	 
+  uint8_t   Batprd[4];   // 电池生产商
+  uint8_t   BatID[4];    // 电池序号
+  
+  uint8_t   Batyear;
+  uint8_t   Batmonth;
+  uint8_t   Batday;      // 电池生产日期，年，月，日
+  uint8_t   BatChgNum;   // 电池充电次数
+  uint8_t   BatPR;       // 电池产权
+  
+  uint8_t   Batrsvd;     // 预留
+  uint8_t   VIN[17];     // 车辆识别码
+  /*BCP*/
+  uint8_t   SnglVmaxVL;    // BMS单体最高允许充电电压
+  uint8_t   SnglVmaxVH;
+  uint8_t   max_lim_curL;  // BMS最高允许充电电流
+  uint8_t   max_lim_curH;
+  uint8_t   BatTEL;        // 蓄电池标称总能量
+  uint8_t   BatTEH;
+  uint8_t   max_lim_voltL; // BMS最高允许充电电压
+  
+  uint8_t   max_lim_voltH;
+  uint8_t   max_lim_tmp;   // BMS最高允许温度
+  uint8_t   BatChgL;       // 蓄电池电荷量
+  uint8_t   BatChgH;
+  uint8_t   BatVL;         // 蓄电池总电压
+  uint8_t   BatVH;
+  /*BCL*/
+  uint8_t   voltL;         // 允许充电电压
+  uint8_t   voltH;
+  uint8_t   currentL;      // 允许充电电流
+  uint8_t   currentH;
+  uint8_t   ChgMod;        // 充电模式
+  /*BCS*/
+  uint8_t   measureVL;     // 充电电压测量值
+  uint8_t   measureVH;
+  uint8_t   measureCL;     // 充电电流测量值
+  uint8_t   measureCH;
+  uint8_t   maxSnglVandNumL;// 最高单体电压用编号
+  uint8_t   maxSnglVandNumH;
+  
+  uint8_t   rmdTL;          // 估计剩余充电时间min
+  uint8_t   rmdTH; 
+  /*CCS*/
+  uint16_t  ou;            // 电压输出值
+  uint16_t  oi;            // 电流输出值
+  uint16_t  ChgTime;       // 充电时间
+  /*BSM*/
+  uint8_t   NumOfmaxsV;    // 最高单体所在编号
+
+  uint8_t   maxtmpnr;      // 最高温度测试点编号
+
+  uint8_t   mintmpnr;      // 最低温度测试点编号
+  uint8_t   BatErr1;
+  uint8_t   BatErr2;
+  /*BMV*/
+  uint8_t   SngleV[520];   // 单体电压
+  /*BMT*/
+
+  /*BST*/
+  uint8_t   BMScause;      // BMS中止充电原因
+  uint8_t   BMSfaultL;     // BMS中止充电故障原因
+  uint8_t   BMSfaultH;
+  uint8_t   BMSErr;        // BMS中止充电错误原因
+  /*CST*/
+  uint8_t   Chgcause;      // 充电机中止充电原因
+  uint16_t  Chgfault;      // 充电机中止充电故障原因
+  uint8_t   ChgErr;        // 充电机中止充电错误原因
+  /*BSD*/
+  uint8_t   Stopsoc;       // 中止SOC
+  uint8_t   StopMinSgnlVL; // 中止单体最高电压
+  uint8_t   StopMinSgnlVH;
+  uint8_t   StopMaxSgnlVL; // 中止单体最低电压
+  uint8_t   StopMaxSgnlVH;
+  uint8_t   StopMinTmp;    // 中止最低温度
+  uint8_t   StopMaxTmp;    // 中止最高温度
+  /*CSD*/
+  uint16_t  TotleTime;     // 累积充电时间
+  uint16_t  OutE;          // 输出总能量
+  
+  uint8_t   BMS_conbit;    // BMS控制位:1:充电2:停止8:握手命令
+  uint8_t   modnum;        // 模块数
+  uint8_t   SngleVnum;     // 单体数
+
+
+  uint8_t   tmpnum;     // 模块内温度采样点个数
+  
+  uint8_t    platenum[8];     //车牌号
+
+  uint16_t  itmp;       // LECU内部温度
+  uint8_t   ists;       // 模块内状态(风扇开关状态, 模块内风扇开关状态)
+  uint8_t   itrb;       // 故障 (内部通信故障, 均衡故障, 线束故障, 温度传感器故障, 内部风扇故障)
+  
+  uint16_t  maxv;       // 电池单体电压最大值
+  uint8_t   maxvnr;     // 最大单体电压编号
+  uint16_t  minv;       // 电池单体电压最小值
+  uint8_t   minvnr;     // 最小单体电压编号
+
+  uint8_t   ConMod;     // 充电方式:1,1#充;2,2#充;3,先1#后2#充;4,先2#后1#充;
+  uint8_t   IsCnnct1;   // 连接器1是否连接成功
+  uint8_t   IsCnnct2;   // 连接器2是否连接成功
+  uint8_t   ChgSts;     // 充电状态:1充电，2停止，8握手
+  uint8_t   IsCost;     // 待刷卡扣费标志，1待扣，2已刷卡扣费
+  uint8_t   IsChg;      // 是否充电
+
+  uint16_t  HmiConVolt; // 彩屏控制电压
+  uint16_t  HmiConCur;  // 彩屏控制电流
+  uint16_t  HmiConBit;  // 彩屏控制位
+  uint16_t  HmiConTime; // 彩屏控制时间
+
+  uint8_t   back_lim_curL;  // 后台最高允许充电电流
+  uint8_t   back_lim_curH;
+  uint8_t   back_lim_voltL; // 后台最高允许充电电压
+  uint8_t   back_lim_voltH;
+  uint8_t   conbit;        //控制位
+  uint8_t   condata;       //控制数据
+  uint8_t   condateL;      //控制输入日\时\分
+  uint8_t   condateH;      //控制输入日\时\分
+
+  uint32_t  watthour;      //电度
+  uint32_t  startwatthour; //充电起始电度
+  uint32_t  diffwatthour;  //差额电度
+
+};
+extern RTC_TIME_Type CurTime ;
+//------------------------------------------------------------------------------
+/*
+//taiyuan
+
+__packed struct Mod
+{
+    //DATA OF CHARGE
+    uint16_t  ou;        // 充电模块输出电压
+    uint16_t  oi;        // 充电模块输出电流
+    uint8_t   tmp;       // 充电模块温度
+    uint8_t   rsvd;      // 充电模块保留字 (*)
+    uint8_t   trb;       // 充电模块模块故障
+    uint8_t   sts;       // 充电模块工作状态
+
+  uint8_t   bodys;      // 模块内单体个数
+  uint8_t   tmpnum;     // 模块内温度采样点个数
+  uint16_t  volt;       // 模块总电压
+  uint16_t  soc;        // 模块SOC
+  uint16_t  soh;        // 模块SOH
+
+  uint16_t  itmp;       // LECU内部温度
+  uint8_t   ists;       // 模块内状态(风扇开关状态, 模块内风扇开关状态)
+  uint8_t   itrb;       // 故障 (内部通信故障, 均衡故障, 线束故障, 温度传感器故障, 内部风扇故障)
+  uint8_t   rsvd5;
+  uint8_t   rsvd6;
+  uint8_t   rsvd7;
+  uint8_t   rsvd8;
+
+  uint16_t  maxv;       // 电池单体电压最大值
+  uint8_t   maxvnr;     // 最大单体电压编号
+  uint16_t  minv;       // 电池单体电压最小值
+  uint8_t   minvnr;     // 最小单体电压编号
+  uint16_t  avv;        // 电池单体电压平均值
+
+  uint16_t  maxtmp;     // 电池温度最大值
+  uint8_t   maxtmpnr;   // 最大温度采样点编号
+  uint16_t  mintmp;     // 电池温度最小值
+  uint8_t   mintmpnr;   // 最小温度采样点编号
+  uint16_t  avtmp;      // 电池温度平均值
+
+  uint16_t  swver;      // LECU软件版本号信息
+  uint16_t  hwver;      // LECU硬件版本号信息
+  uint8_t   mf;         // 生产厂家/产品类型
+  uint8_t   sn[3];      // LECU唯一编号
+
+  uint8_t   jdq;         // 继电器控制
+
+  uint16_t  tmps[4];    // 模块温度采样点温度
+  uint16_t  volts[24];  // 模块单体电压
+
+  uint8_t   rsvd9[2];    // 保留
+
+};
+//------------------------------------------------------------------------------
+*/
+
+extern volatile unsigned long SysTickCnt;
+extern volatile unsigned long SysTime;
+extern volatile unsigned long Times[32];
+extern  struct Mod SysMods[1];
+extern volatile uint32_t   ModReadys;
+
+extern SOERCD       g_sSoercd;
+extern RTC_TIME_Type CurTime ;
+#define   SWAP(a)           ((a)>>8 | (a)<<8)
+extern void netp_main ( void );
+extern void disp_main ( void );
+extern CHGCTRL      g_ChgCtrl;
+#endif
+

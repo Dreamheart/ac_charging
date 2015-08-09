@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1831584411</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_clkpwr.c</file>
+      <file>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_can.c</file>
+      <file>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_adc.c</file>
+      <file>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_crc.c</file>
+      <file>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_gpdma.c</file>
+      <file>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_gpio.c</file>
+      <file>$PROJ_DIR$\..\Bsp\Uart.c</file>
+      <file>$PROJ_DIR$\..\Bsp\Rtc.c</file>
+      <file>$PROJ_DIR$\..\Bsp\Cans.c</file>
+      <file>$PROJ_DIR$\..\Bsp\Dio.c</file>
+      <file>$PROJ_DIR$\..\Bsp\Fontlib.c</file>
+      <file>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_eeprom.c</file>
+      <file>$PROJ_DIR$\..\Bsp\Eeprom.c</file>
+      <file>$PROJ_DIR$\..\Bsp\Lcd.c</file>
+      <file>$PROJ_DIR$\..\app\Peer.c</file>
+      <file>$PROJ_DIR$\..\Bsp\Ad.c</file>
+      <file>$PROJ_DIR$\..\Bsp\Key.c</file>
+      <file>$PROJ_DIR$\..\app\Disp.c</file>
+      <file>$PROJ_DIR$\..\app\startup_LPC177x_8x.s</file>
+      <file>$PROJ_DIR$\..\app\Main.c</file>
+      <file>$PROJ_DIR$\..\app\Analog.c</file>
+      <file>$PROJ_DIR$\..\app\Charging.c</file>
+      <file>$PROJ_DIR$\..\app\Meter.c</file>
+      <file>$PROJ_DIR$\..\app\GPRS.c</file>
+      <file>$PROJ_DIR$\..\app\hwtst.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_adc.o</file>
+      <file>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_ssp.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_LPC177x_8x.o</file>
+      <file>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_uart.c</file>
+      <file>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_mci.c</file>
+      <file>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_timer.c</file>
+      <file>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_i2c.c</file>
+      <file>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_nvic.c</file>
+      <file>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_pinsel.c</file>
+      <file>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_rtc.c</file>
+      <file>$PROJ_DIR$\..\Core\CM3\DeviceSupport\NXP\LPC177x_8x\system_LPC177x_8x.c</file>
+      <file>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_systick.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\GPRS.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Peer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_ssp.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_nvic.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_adc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Lcd.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_gpio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_i2c.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_pinsel.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Rtc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_gpdma.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_ssp.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Rtc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Fontlib.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_gpdma.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Peer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_clkpwr.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_LPC177x_8x.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_systick.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_timer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Disp.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Dio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Cans.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\lpc17xx.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_can.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\hwtst.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Key.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Ad.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Uart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Meter.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_gpio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_nvic.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Disp.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_systick.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_i2c.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_uart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Key.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_mci.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Analog.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Analog.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Fontlib.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Eeprom.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_uart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_pinsel.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_timer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Meter.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_LPC177x_8x.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Lcd.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\hwtst.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_can.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_rtc.o</file>
+      <file>$PROJ_DIR$\Debug\Exe\lpc17xx.hex</file>
+      <file>$PROJ_DIR$\Debug\Obj\Charging.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Uart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Charging.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Dio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_crc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc17xx.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_eeprom.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_rtc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_mci.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Ad.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Eeprom.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_crc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Cans.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\GPRS.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_clkpwr.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_eeprom.o</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_clkpwr.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 105</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_can.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_adc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_crc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 102</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_gpdma.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Bsp\Uart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Bsp\Rtc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Bsp\Cans.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 103</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Bsp\Dio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Bsp\Fontlib.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_eeprom.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 106</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Bsp\Eeprom.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 101</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Bsp\Lcd.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\app\Peer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Bsp\Ad.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Bsp\Key.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\app\Disp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\app\startup_LPC177x_8x.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\app\Main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\app\Analog.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\app\Charging.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\app\Meter.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\app\GPRS.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\app\hwtst.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_ssp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_uart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_mci.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 99</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_nvic.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_pinsel.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Core\CM3\DeviceSupport\NXP\LPC177x_8x\system_LPC177x_8x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\source\lpc177x_8x_systick.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\lpc17xx.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\app\Peer.c</file>
+      <file>$PROJ_DIR$\..\app\Disp.c</file>
+      <file>$PROJ_DIR$\..\app\Main.c</file>
+      <file>$PROJ_DIR$\..\inc\globals.h</file>
+      <file>$PROJ_DIR$\..\inc\lpc17xx_clkpwr.h</file>
+      <file>$PROJ_DIR$\Release\Obj\modbus.o</file>
+      <file>$PROJ_DIR$\..\net\uip-conf.h</file>
+      <file>$PROJ_DIR$\..\inc\lpc_types.h</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc17xx_timer.o</file>
+      <file>$PROJ_DIR$\Release\Obj\chgm.pbi</file>
+      <file>$PROJ_DIR$\..\inc\LPC17xx.h</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc17xx_pinsel.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc17xx_clkpwr.o</file>
+      <file>$PROJ_DIR$\Release\Obj\cstartup_M.o</file>
+      <file>$PROJ_DIR$\..\inc\lpc17xx_can.h</file>
+      <file>$PROJ_DIR$\..\app\modbus.h</file>
+      <file>$PROJ_DIR$\..\inc\core_cm3.h</file>
+      <file>$PROJ_DIR$\..\inc\lpc17xx_uart.h</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc17xx_clkpwr.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\drv\lpc17xx_nvic.c</file>
+      <file>$PROJ_DIR$\..\drv\core_cm3.c</file>
+      <file>$PROJ_DIR$\Release\Obj\disp.o</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc17xx_emac.pbi</file>
+      <file>$PROJ_DIR$\..\drv\lpc17xx_clkpwr.c</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc17xx_emac.o</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc17xx_uart.o</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc17xx_pinsel.o</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\..\inc\lpc17xx_nvic.h</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc17xx_nvic.o</file>
+      <file>$PROJ_DIR$\Release\Obj\core_cm3.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc17xx_can.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tl_in.a</file>
+      <file>$PROJ_DIR$\..\app\chgm.c</file>
+      <file>$PROJ_DIR$\..\inc\lpc17xx_timer.h</file>
+      <file>$PROJ_DIR$\Release\Obj\modbus.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\system_LPC17xx.o</file>
+      <file>$TOOLKIT_DIR$\inc\ycheck.h</file>
+      <file>$PROJ_DIR$\..\drv\lpc17xx_emac.c</file>
+      <file>$PROJ_DIR$\..\inc\lpc17xx_libcfg.h</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc17xx_uart.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc17xx_gpio.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\disp.pbi</file>
+      <file>$PROJ_DIR$\..\inc\lpc17xx_gpio.h</file>
+      <file>$PROJ_DIR$\Release\Obj\lecu.o</file>
+      <file>$TOOLKIT_DIR$\inc\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\drv\lpc17xx_gpio.c</file>
+      <file>$PROJ_DIR$\Release\Obj\lecu.pbi</file>
+      <file>$PROJ_DIR$\LPC1768_Flash.icf</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc17xx.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\inttypes.h</file>
+      <file>$PROJ_DIR$\..\app\cstartup_M.s</file>
+      <file>$PROJ_DIR$\..\app\modbus.c</file>
+      <file>$TOOLKIT_DIR$\inc\yvals.h</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc17xx_gpio.o</file>
+      <file>$PROJ_DIR$\Release\Obj\peer.o</file>
+      <file>$PROJ_DIR$\Release\Obj\core_cm3.o</file>
+      <file>$PROJ_DIR$\Release\Obj\main.o</file>
+      <file>$PROJ_DIR$\Release\Exe\lpc17xx.out</file>
+      <file>$PROJ_DIR$\..\app\netp.c</file>
+      <file>$PROJ_DIR$\..\drv\lpc17xx_uart.c</file>
+      <file>$TOOLKIT_DIR$\inc\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\stdint.h</file>
+      <file>$PROJ_DIR$\..\drv\lpc17xx_timer.c</file>
+      <file>$PROJ_DIR$\..\drv\system_LPC17xx.c</file>
+      <file>$PROJ_DIR$\Release\Obj\netp.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\system_LPC17xx.pbi</file>
+      <file>$PROJ_DIR$\..\net\uipopt.h</file>
+      <file>$PROJ_DIR$\Release\Obj\peer.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc17xx_timer.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\..\inc\lpc17xx_pinsel.h</file>
+      <file>$PROJ_DIR$\..\drv\lpc17xx_can.c</file>
+      <file>$TOOLKIT_DIR$\inc\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\net\EMAC.h</file>
+      <file>$TOOLKIT_DIR$\inc\string.h</file>
+      <file>$PROJ_DIR$\Release\Obj\chgm.o</file>
+      <file>$PROJ_DIR$\..\app\lecu.c</file>
+      <file>$PROJ_DIR$\Release\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\netp.o</file>
+      <file>$PROJ_DIR$\..\app\lecu.h</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc17xx_can.o</file>
+      <file>$PROJ_DIR$\Release\Obj\lpc17xx_nvic.pbi</file>
+      <file>$PROJ_DIR$\..\inc\lpc17xx_emac.h</file>
+      <file>$PROJ_DIR$\..\inc\system_LPC17xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\drv\lpc17xx_pinsel.c</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\app\Peer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 40 56 19 73 48 33 88 64 76 46 10 16 65 20 87 7 74 15 17 3</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78 40 56 19 48 33 88 64 76 46 10 16 65 20 87 7 74 15 17 3</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\app\Disp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46 10 16 65 40 56 19 73 48 33 88 20 87 7 3 74</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 10 16 65 40 56 19 48 33 88 20 87 7 3 74</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\app\Main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46 10 16 65 40 56 19 73 48 33 88 20 87 7 17 14 30 74 77 6 53 70 83 3</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 10 16 65 40 56 19 48 33 88 20 87 7 17 14 30 74 77 6 53 70 83 3</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drv\lpc17xx_nvic.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 30 10 16 65 40 56 19 73 48 33 88 20 87 7</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30 10 16 65 40 56 19 48 33 88 20 87 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drv\core_cm3.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65 40 56 19 73 48 33 88</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65 40 56 19 48 33 88</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drv\lpc17xx_clkpwr.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 4 10 16 65 40 56 19 73 48 33 88 20 87 7</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 10 16 65 40 56 19 48 33 88 20 87 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\app\chgm.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 40 56 19 73 48 33 88 64 76 15 17 10 16 65 20 87 7 3 83</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78 40 56 19 48 33 88 64 76 15 17 10 16 65 20 87 7 3 83</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drv\lpc17xx_emac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86 10 16 65 40 56 19 48 33 88 20 87 7 4 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drv\lpc17xx_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46 10 16 65 40 56 19 73 48 33 88 20 87 7 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 10 16 65 40 56 19 48 33 88 20 87 7 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Obj\lpc17xx.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 9 32 45 50 34 18 44 85 11 72 43 81 38 71 69</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\app\cstartup_M.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\app\modbus.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 17 10 16 65 40 56 19 73 48 33 88 20 87 7 3 15</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17 10 16 65 40 56 19 48 33 88 20 87 7 3 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\lpc17xx.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 51 79 59 13 23 47 84 12 57 31 28 8 27 60 5 58 39 29 35</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\app\netp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drv\lpc17xx_uart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 17 10 16 65 40 56 19 73 48 33 88 20 87 7 4 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17 10 16 65 40 56 19 48 33 88 20 87 7 4 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drv\lpc17xx_timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 10 16 65 40 56 19 73 48 33 88 20 87 7 4 74 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37 10 16 65 40 56 19 48 33 88 20 87 7 4 74 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drv\system_LPC17xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65 40 56 19 73 48 33 88 10 16 20 87</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65 40 56 19 48 33 88 10 16 20 87</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drv\lpc17xx_can.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 14 10 16 65 40 56 19 73 48 33 88 20 87 7 4 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14 10 16 65 40 56 19 48 33 88 20 87 7 4 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\app\lecu.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 40 56 19 73 48 33 88 64 76 14 10 16 65 20 87 7 3 83</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78 40 56 19 48 33 88 64 76 14 10 16 65 20 87 7 3 83</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drv\lpc17xx_pinsel.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74 10 16 65 40 56 19 73 48 33 88 20 87 7</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74 10 16 65 40 56 19 48 33 88 20 87 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\drv\lpc17xx_emac.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\app\netp.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

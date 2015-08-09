@@ -1,0 +1,1178 @@
+[Sfr]
+sfr = "NVIC",	"Memory",	0xe000e004,	4,	base=16,	modified
+sfr = "SYSTICKCSR",	"Memory",	0xe000e010,	4,	base=16,	modified
+sfr = "STCTRL",	"Memory",	0xe000e010,	4,	base=16,	modified
+sfr = "SYSTICKRVR",	"Memory",	0xe000e014,	4,	base=16,	modified
+sfr = "STRELOAD",	"Memory",	0xe000e014,	4,	base=16,	modified
+sfr = "SYSTICKCVR",	"Memory",	0xe000e018,	4,	base=16,	modified
+sfr = "STCURR",	"Memory",	0xe000e018,	4,	base=16,	modified
+sfr = "SYSTICKCALVR",	"Memory",	0xe000e01c,	4,	base=16,	modified
+sfr = "STCALIB",	"Memory",	0xe000e01c,	4,	base=16,	modified
+sfr = "SETENA0",	"Memory",	0xe000e100,	4,	base=16,	modified
+sfr = "SETENA1",	"Memory",	0xe000e104,	4,	base=16,	modified
+sfr = "CLRENA0",	"Memory",	0xe000e180,	4,	base=16,	modified
+sfr = "CLRENA1",	"Memory",	0xe000e184,	4,	base=16,	modified
+sfr = "SETPEND0",	"Memory",	0xe000e200,	4,	base=16,	modified
+sfr = "SETPEND1",	"Memory",	0xe000e204,	4,	base=16,	modified
+sfr = "CLRPEND0",	"Memory",	0xe000e280,	4,	base=16,	modified
+sfr = "CLRPEND1",	"Memory",	0xe000e284,	4,	base=16,	modified
+sfr = "ACTIVE0",	"Memory",	0xe000e300,	4,	base=16,	modified
+sfr = "ACTIVE1",	"Memory",	0xe000e304,	4,	base=16,	modified
+sfr = "IP0",	"Memory",	0xe000e400,	4,	base=16,	modified
+sfr = "IP1",	"Memory",	0xe000e404,	4,	base=16,	modified
+sfr = "IP2",	"Memory",	0xe000e408,	4,	base=16,	modified
+sfr = "IP3",	"Memory",	0xe000e40c,	4,	base=16,	modified
+sfr = "IP4",	"Memory",	0xe000e410,	4,	base=16,	modified
+sfr = "IP5",	"Memory",	0xe000e414,	4,	base=16,	modified
+sfr = "IP6",	"Memory",	0xe000e418,	4,	base=16,	modified
+sfr = "IP7",	"Memory",	0xe000e41c,	4,	base=16,	modified
+sfr = "IP8",	"Memory",	0xe000e420,	4,	base=16,	modified
+sfr = "IP9",	"Memory",	0xe000e424,	4,	base=16,	modified
+sfr = "IP10",	"Memory",	0xe000e428,	4,	base=16,	modified
+sfr = "IP11",	"Memory",	0xe000e42c,	4,	base=16,	modified
+sfr = "IP12",	"Memory",	0xe000e430,	4,	base=16,	modified
+sfr = "IP13",	"Memory",	0xe000e434,	4,	base=16,	modified
+sfr = "IP14",	"Memory",	0xe000e438,	4,	base=16,	modified
+sfr = "IP15",	"Memory",	0xe000e43c,	4,	base=16,	modified
+sfr = "CPUIDBR",	"Memory",	0xe000ed00,	4,	base=16,	modified
+sfr = "ICSR",	"Memory",	0xe000ed04,	4,	base=16,	modified
+sfr = "VTOR",	"Memory",	0xe000ed08,	4,	base=16,	modified
+sfr = "AIRCR",	"Memory",	0xe000ed0c,	4,	base=16,	modified
+sfr = "SCR",	"Memory",	0xe000ed10,	4,	base=16,	modified
+sfr = "CCR",	"Memory",	0xe000ed14,	4,	base=16,	modified
+sfr = "SHPR0",	"Memory",	0xe000ed18,	4,	base=16,	modified
+sfr = "SHPR1",	"Memory",	0xe000ed1c,	4,	base=16,	modified
+sfr = "SHPR2",	"Memory",	0xe000ed20,	4,	base=16,	modified
+sfr = "SHCSR",	"Memory",	0xe000ed24,	4,	base=16,	modified
+sfr = "CFSR",	"Memory",	0xe000ed28,	4,	base=16,	modified
+sfr = "HFSR",	"Memory",	0xe000ed2c,	4,	base=16,	modified
+sfr = "DFSR",	"Memory",	0xe000ed30,	4,	base=16,	modified
+sfr = "MMFAR",	"Memory",	0xe000ed34,	4,	base=16,	modified
+sfr = "BFAR",	"Memory",	0xe000ed38,	4,	base=16,	modified
+sfr = "STIR",	"Memory",	0xe000ef00,	4,	base=16,	modified
+sfr = "MEMMAP",	"Memory",	0x400fc040,	4,	base=16,	modified
+sfr = "EXTINT",	"Memory",	0x400fc140,	4,	base=16,	modified
+sfr = "EXTMODE",	"Memory",	0x400fc148,	4,	base=16,	modified
+sfr = "EXTPOLAR",	"Memory",	0x400fc14c,	4,	base=16,	modified
+sfr = "RSID",	"Memory",	0x400fc180,	4,	base=16,	modified
+sfr = "SCS",	"Memory",	0x400fc1a0,	4,	base=16,	modified
+sfr = "CLKSRCSEL",	"Memory",	0x400fc10c,	4,	base=16,	modified
+sfr = "PLL0CON",	"Memory",	0x400fc080,	4,	base=16,	modified
+sfr = "PLL0CFG",	"Memory",	0x400fc084,	4,	base=16,	modified
+sfr = "PLL0STAT",	"Memory",	0x400fc088,	4,	base=16,	modified
+sfr = "PLL0FEED",	"Memory",	0x400fc08c,	4,	base=16,	modified
+sfr = "PLL1CON",	"Memory",	0x400fc0a0,	4,	base=16,	modified
+sfr = "PLL1CFG",	"Memory",	0x400fc0a4,	4,	base=16,	modified
+sfr = "PLL1STAT",	"Memory",	0x400fc0a8,	4,	base=16,	modified
+sfr = "PLL1FEED",	"Memory",	0x400fc0ac,	4,	base=16,	modified
+sfr = "EMCCLKSEL",	"Memory",	0x400fc100,	4,	base=16,	modified
+sfr = "CCLKSEL",	"Memory",	0x400fc104,	4,	base=16,	modified
+sfr = "USBCLKSEL",	"Memory",	0x400fc108,	4,	base=16,	modified
+sfr = "PCLKSEL",	"Memory",	0x400fc1a8,	4,	base=16,	modified
+sfr = "PCON",	"Memory",	0x400fc0c0,	4,	base=16,	modified
+sfr = "PCONP",	"Memory",	0x400fc0c4,	4,	base=16,	modified
+sfr = "PBOOST",	"Memory",	0x400fc1b0,	4,	base=16,	modified
+sfr = "CLKOUTCFG",	"Memory",	0x400fc1c8,	4,	base=16,	modified
+sfr = "RSTCON0",	"Memory",	0x400fc1cc,	4,	base=16,	modified
+sfr = "RSTCON1",	"Memory",	0x400fc1d0,	4,	base=16,	modified
+sfr = "FLASHCFG",	"Memory",	0x400fc000,	4,	base=16,	modified
+sfr = "IOCON_P0_00",	"Memory",	0x4002c000,	4,	base=16,	modified
+sfr = "IOCON_P0_01",	"Memory",	0x4002c004,	4,	base=16,	modified
+sfr = "IOCON_P0_02",	"Memory",	0x4002c008,	4,	base=16,	modified
+sfr = "IOCON_P0_03",	"Memory",	0x4002c00c,	4,	base=16,	modified
+sfr = "IOCON_P0_04",	"Memory",	0x4002c010,	4,	base=16,	modified
+sfr = "IOCON_P0_05",	"Memory",	0x4002c014,	4,	base=16,	modified
+sfr = "IOCON_P0_06",	"Memory",	0x4002c018,	4,	base=16,	modified
+sfr = "IOCON_P0_07",	"Memory",	0x4002c01c,	4,	base=16,	modified
+sfr = "IOCON_P0_08",	"Memory",	0x4002c020,	4,	base=16,	modified
+sfr = "IOCON_P0_09",	"Memory",	0x4002c024,	4,	base=16,	modified
+sfr = "IOCON_P0_10",	"Memory",	0x4002c028,	4,	base=16,	modified
+sfr = "IOCON_P0_11",	"Memory",	0x4002c02c,	4,	base=16,	modified
+sfr = "IOCON_P0_12",	"Memory",	0x4002c030,	4,	base=16,	modified
+sfr = "IOCON_P0_13",	"Memory",	0x4002c034,	4,	base=16,	modified
+sfr = "IOCON_P0_14",	"Memory",	0x4002c038,	4,	base=16,	modified
+sfr = "IOCON_P0_15",	"Memory",	0x4002c03c,	4,	base=16,	modified
+sfr = "IOCON_P0_16",	"Memory",	0x4002c040,	4,	base=16,	modified
+sfr = "IOCON_P0_17",	"Memory",	0x4002c044,	4,	base=16,	modified
+sfr = "IOCON_P0_18",	"Memory",	0x4002c048,	4,	base=16,	modified
+sfr = "IOCON_P0_19",	"Memory",	0x4002c04c,	4,	base=16,	modified
+sfr = "IOCON_P0_20",	"Memory",	0x4002c050,	4,	base=16,	modified
+sfr = "IOCON_P0_21",	"Memory",	0x4002c054,	4,	base=16,	modified
+sfr = "IOCON_P0_22",	"Memory",	0x4002c058,	4,	base=16,	modified
+sfr = "IOCON_P0_23",	"Memory",	0x4002c05c,	4,	base=16,	modified
+sfr = "IOCON_P0_24",	"Memory",	0x4002c060,	4,	base=16,	modified
+sfr = "IOCON_P0_25",	"Memory",	0x4002c064,	4,	base=16,	modified
+sfr = "IOCON_P0_26",	"Memory",	0x4002c068,	4,	base=16,	modified
+sfr = "IOCON_P0_27",	"Memory",	0x4002c06c,	4,	base=16,	modified
+sfr = "IOCON_P0_28",	"Memory",	0x4002c070,	4,	base=16,	modified
+sfr = "IOCON_P0_29",	"Memory",	0x4002c074,	4,	base=16,	modified
+sfr = "IOCON_P0_30",	"Memory",	0x4002c078,	4,	base=16,	modified
+sfr = "IOCON_P0_31",	"Memory",	0x4002c07c,	4,	base=16,	modified
+sfr = "IOCON_P1_00",	"Memory",	0x4002c080,	4,	base=16,	modified
+sfr = "IOCON_P1_01",	"Memory",	0x4002c084,	4,	base=16,	modified
+sfr = "IOCON_P1_02",	"Memory",	0x4002c088,	4,	base=16,	modified
+sfr = "IOCON_P1_03",	"Memory",	0x4002c08c,	4,	base=16,	modified
+sfr = "IOCON_P1_04",	"Memory",	0x4002c090,	4,	base=16,	modified
+sfr = "IOCON_P1_05",	"Memory",	0x4002c094,	4,	base=16,	modified
+sfr = "IOCON_P1_06",	"Memory",	0x4002c098,	4,	base=16,	modified
+sfr = "IOCON_P1_07",	"Memory",	0x4002c09c,	4,	base=16,	modified
+sfr = "IOCON_P1_08",	"Memory",	0x4002c0a0,	4,	base=16,	modified
+sfr = "IOCON_P1_09",	"Memory",	0x4002c0a4,	4,	base=16,	modified
+sfr = "IOCON_P1_10",	"Memory",	0x4002c0a8,	4,	base=16,	modified
+sfr = "IOCON_P1_11",	"Memory",	0x4002c0ac,	4,	base=16,	modified
+sfr = "IOCON_P1_12",	"Memory",	0x4002c0b0,	4,	base=16,	modified
+sfr = "IOCON_P1_13",	"Memory",	0x4002c0b4,	4,	base=16,	modified
+sfr = "IOCON_P1_14",	"Memory",	0x4002c0b8,	4,	base=16,	modified
+sfr = "IOCON_P1_15",	"Memory",	0x4002c0bc,	4,	base=16,	modified
+sfr = "IOCON_P1_16",	"Memory",	0x4002c0c0,	4,	base=16,	modified
+sfr = "IOCON_P1_17",	"Memory",	0x4002c0c4,	4,	base=16,	modified
+sfr = "IOCON_P1_18",	"Memory",	0x4002c0c8,	4,	base=16,	modified
+sfr = "IOCON_P1_19",	"Memory",	0x4002c0cc,	4,	base=16,	modified
+sfr = "IOCON_P1_20",	"Memory",	0x4002c0d0,	4,	base=16,	modified
+sfr = "IOCON_P1_21",	"Memory",	0x4002c0d4,	4,	base=16,	modified
+sfr = "IOCON_P1_22",	"Memory",	0x4002c0d8,	4,	base=16,	modified
+sfr = "IOCON_P1_23",	"Memory",	0x4002c0dc,	4,	base=16,	modified
+sfr = "IOCON_P1_24",	"Memory",	0x4002c0e0,	4,	base=16,	modified
+sfr = "IOCON_P1_25",	"Memory",	0x4002c0e4,	4,	base=16,	modified
+sfr = "IOCON_P1_26",	"Memory",	0x4002c0e8,	4,	base=16,	modified
+sfr = "IOCON_P1_27",	"Memory",	0x4002c0ec,	4,	base=16,	modified
+sfr = "IOCON_P1_28",	"Memory",	0x4002c0f0,	4,	base=16,	modified
+sfr = "IOCON_P1_29",	"Memory",	0x4002c0f4,	4,	base=16,	modified
+sfr = "IOCON_P1_30",	"Memory",	0x4002c0f8,	4,	base=16,	modified
+sfr = "IOCON_P1_31",	"Memory",	0x4002c0fc,	4,	base=16,	modified
+sfr = "IOCON_P2_00",	"Memory",	0x4002c100,	4,	base=16,	modified
+sfr = "IOCON_P2_01",	"Memory",	0x4002c104,	4,	base=16,	modified
+sfr = "IOCON_P2_02",	"Memory",	0x4002c108,	4,	base=16,	modified
+sfr = "IOCON_P2_03",	"Memory",	0x4002c10c,	4,	base=16,	modified
+sfr = "IOCON_P2_04",	"Memory",	0x4002c110,	4,	base=16,	modified
+sfr = "IOCON_P2_05",	"Memory",	0x4002c114,	4,	base=16,	modified
+sfr = "IOCON_P2_23",	"Memory",	0x4002c15c,	4,	base=16,	modified
+sfr = "IOCON_P2_25",	"Memory",	0x4002c164,	4,	base=16,	modified
+sfr = "IOCON_P2_26",	"Memory",	0x4002c168,	4,	base=16,	modified
+sfr = "IOCON_P2_27",	"Memory",	0x4002c16c,	4,	base=16,	modified
+sfr = "IOCON_P2_28",	"Memory",	0x4002c170,	4,	base=16,	modified
+sfr = "IOCON_P2_29",	"Memory",	0x4002c174,	4,	base=16,	modified
+sfr = "IOCON_P2_30",	"Memory",	0x4002c178,	4,	base=16,	modified
+sfr = "IOCON_P2_31",	"Memory",	0x4002c17c,	4,	base=16,	modified
+sfr = "IOCON_P3_00",	"Memory",	0x4002c180,	4,	base=16,	modified
+sfr = "IOCON_P3_01",	"Memory",	0x4002c184,	4,	base=16,	modified
+sfr = "IOCON_P3_02",	"Memory",	0x4002c188,	4,	base=16,	modified
+sfr = "IOCON_P3_03",	"Memory",	0x4002c18c,	4,	base=16,	modified
+sfr = "IOCON_P3_04",	"Memory",	0x4002c190,	4,	base=16,	modified
+sfr = "IOCON_P3_05",	"Memory",	0x4002c194,	4,	base=16,	modified
+sfr = "IOCON_P3_06",	"Memory",	0x4002c198,	4,	base=16,	modified
+sfr = "IOCON_P3_07",	"Memory",	0x4002c19c,	4,	base=16,	modified
+sfr = "IOCON_P3_08",	"Memory",	0x4002c1a0,	4,	base=16,	modified
+sfr = "IOCON_P3_09",	"Memory",	0x4002c1a4,	4,	base=16,	modified
+sfr = "IOCON_P3_10",	"Memory",	0x4002c1a8,	4,	base=16,	modified
+sfr = "IOCON_P3_11",	"Memory",	0x4002c1ac,	4,	base=16,	modified
+sfr = "IOCON_P3_12",	"Memory",	0x4002c1b0,	4,	base=16,	modified
+sfr = "IOCON_P3_13",	"Memory",	0x4002c1b4,	4,	base=16,	modified
+sfr = "IOCON_P3_14",	"Memory",	0x4002c1b8,	4,	base=16,	modified
+sfr = "IOCON_P3_15",	"Memory",	0x4002c1bc,	4,	base=16,	modified
+sfr = "IOCON_P3_16",	"Memory",	0x4002c1c0,	4,	base=16,	modified
+sfr = "IOCON_P3_17",	"Memory",	0x4002c1c4,	4,	base=16,	modified
+sfr = "IOCON_P3_18",	"Memory",	0x4002c1c8,	4,	base=16,	modified
+sfr = "IOCON_P3_19",	"Memory",	0x4002c1cc,	4,	base=16,	modified
+sfr = "IOCON_P3_20",	"Memory",	0x4002c1d0,	4,	base=16,	modified
+sfr = "IOCON_P3_21",	"Memory",	0x4002c1d4,	4,	base=16,	modified
+sfr = "IOCON_P3_22",	"Memory",	0x4002c1d8,	4,	base=16,	modified
+sfr = "IOCON_P3_23",	"Memory",	0x4002c1dc,	4,	base=16,	modified
+sfr = "IOCON_P3_24",	"Memory",	0x4002c1e0,	4,	base=16,	modified
+sfr = "IOCON_P3_25",	"Memory",	0x4002c1e4,	4,	base=16,	modified
+sfr = "IOCON_P3_26",	"Memory",	0x4002c1e8,	4,	base=16,	modified
+sfr = "IOCON_P3_27",	"Memory",	0x4002c1ec,	4,	base=16,	modified
+sfr = "IOCON_P3_28",	"Memory",	0x4002c1f0,	4,	base=16,	modified
+sfr = "IOCON_P3_29",	"Memory",	0x4002c1f4,	4,	base=16,	modified
+sfr = "IOCON_P3_30",	"Memory",	0x4002c1f8,	4,	base=16,	modified
+sfr = "IOCON_P3_31",	"Memory",	0x4002c1fc,	4,	base=16,	modified
+sfr = "IOCON_P4_00",	"Memory",	0x4002c200,	4,	base=16,	modified
+sfr = "IOCON_P4_01",	"Memory",	0x4002c204,	4,	base=16,	modified
+sfr = "IOCON_P4_02",	"Memory",	0x4002c208,	4,	base=16,	modified
+sfr = "IOCON_P4_03",	"Memory",	0x4002c20c,	4,	base=16,	modified
+sfr = "IOCON_P4_04",	"Memory",	0x4002c210,	4,	base=16,	modified
+sfr = "IOCON_P4_05",	"Memory",	0x4002c214,	4,	base=16,	modified
+sfr = "IOCON_P4_06",	"Memory",	0x4002c218,	4,	base=16,	modified
+sfr = "IOCON_P4_07",	"Memory",	0x4002c21c,	4,	base=16,	modified
+sfr = "IOCON_P4_08",	"Memory",	0x4002c220,	4,	base=16,	modified
+sfr = "IOCON_P4_09",	"Memory",	0x4002c224,	4,	base=16,	modified
+sfr = "IOCON_P4_10",	"Memory",	0x4002c228,	4,	base=16,	modified
+sfr = "IOCON_P4_11",	"Memory",	0x4002c22c,	4,	base=16,	modified
+sfr = "IOCON_P4_12",	"Memory",	0x4002c230,	4,	base=16,	modified
+sfr = "IOCON_P4_13",	"Memory",	0x4002c234,	4,	base=16,	modified
+sfr = "IOCON_P4_14",	"Memory",	0x4002c238,	4,	base=16,	modified
+sfr = "IOCON_P4_15",	"Memory",	0x4002c23c,	4,	base=16,	modified
+sfr = "IOCON_P4_16",	"Memory",	0x4002c240,	4,	base=16,	modified
+sfr = "IOCON_P4_17",	"Memory",	0x4002c244,	4,	base=16,	modified
+sfr = "IOCON_P4_18",	"Memory",	0x4002c248,	4,	base=16,	modified
+sfr = "IOCON_P4_19",	"Memory",	0x4002c24c,	4,	base=16,	modified
+sfr = "IOCON_P4_20",	"Memory",	0x4002c250,	4,	base=16,	modified
+sfr = "IOCON_P4_21",	"Memory",	0x4002c254,	4,	base=16,	modified
+sfr = "IOCON_P4_22",	"Memory",	0x4002c258,	4,	base=16,	modified
+sfr = "IOCON_P4_23",	"Memory",	0x4002c25c,	4,	base=16,	modified
+sfr = "IOCON_P4_24",	"Memory",	0x4002c260,	4,	base=16,	modified
+sfr = "IOCON_P4_25",	"Memory",	0x4002c264,	4,	base=16,	modified
+sfr = "IOCON_P4_26",	"Memory",	0x4002c268,	4,	base=16,	modified
+sfr = "IOCON_P4_27",	"Memory",	0x4002c26c,	4,	base=16,	modified
+sfr = "IOCON_P4_28",	"Memory",	0x4002c270,	4,	base=16,	modified
+sfr = "IOCON_P4_29",	"Memory",	0x4002c274,	4,	base=16,	modified
+sfr = "IOCON_P4_30",	"Memory",	0x4002c278,	4,	base=16,	modified
+sfr = "IOCON_P4_31",	"Memory",	0x4002c27c,	4,	base=16,	modified
+sfr = "IOCON_P5_00",	"Memory",	0x4002c280,	4,	base=16,	modified
+sfr = "IOCON_P5_01",	"Memory",	0x4002c284,	4,	base=16,	modified
+sfr = "IOCON_P5_02",	"Memory",	0x4002c288,	4,	base=16,	modified
+sfr = "IOCON_P5_03",	"Memory",	0x4002c28c,	4,	base=16,	modified
+sfr = "IOCON_P5_04",	"Memory",	0x4002c290,	4,	base=16,	modified
+sfr = "FIO0DIR",	"Memory",	0x20098000,	4,	base=16,	modified
+sfr = "FIO0DIR0",	"Memory",	0x20098000,	1,	base=16,	modified
+sfr = "FIO0DIR1",	"Memory",	0x20098001,	1,	base=16,	modified
+sfr = "FIO0DIR2",	"Memory",	0x20098002,	1,	base=16,	modified
+sfr = "FIO0DIR3",	"Memory",	0x20098003,	1,	base=16,	modified
+sfr = "FIO0DIRL",	"Memory",	0x20098000,	2,	base=16,	modified
+sfr = "FIO0DIRU",	"Memory",	0x20098002,	2,	base=16,	modified
+sfr = "FIO0MASK",	"Memory",	0x20098010,	4,	base=16,	modified
+sfr = "FIO0MASK0",	"Memory",	0x20098010,	1,	base=16,	modified
+sfr = "FIO0MASK1",	"Memory",	0x20098011,	1,	base=16,	modified
+sfr = "FIO0MASK2",	"Memory",	0x20098012,	1,	base=16,	modified
+sfr = "FIO0MASK3",	"Memory",	0x20098013,	1,	base=16,	modified
+sfr = "FIO0MASKL",	"Memory",	0x20098010,	2,	base=16,	modified
+sfr = "FIO0MASKU",	"Memory",	0x20098012,	2,	base=16,	modified
+sfr = "FIO0PIN",	"Memory",	0x20098014,	4,	base=16,	modified
+sfr = "FIO0PIN0",	"Memory",	0x20098014,	1,	base=16,	modified
+sfr = "FIO0PIN1",	"Memory",	0x20098015,	1,	base=16,	modified
+sfr = "FIO0PIN2",	"Memory",	0x20098016,	1,	base=16,	modified
+sfr = "FIO0PIN3",	"Memory",	0x20098017,	1,	base=16,	modified
+sfr = "FIO0PINL",	"Memory",	0x20098014,	2,	base=16,	modified
+sfr = "FIO0PINU",	"Memory",	0x20098016,	2,	base=16,	modified
+sfr = "FIO0SET",	"Memory",	0x20098018,	4,	base=16,	modified
+sfr = "FIO0SET0",	"Memory",	0x20098018,	1,	base=16,	modified
+sfr = "FIO0SET1",	"Memory",	0x20098019,	1,	base=16,	modified
+sfr = "FIO0SET2",	"Memory",	0x2009801a,	1,	base=16,	modified
+sfr = "FIO0SET3",	"Memory",	0x2009801b,	1,	base=16,	modified
+sfr = "FIO0SETL",	"Memory",	0x20098018,	2,	base=16,	modified
+sfr = "FIO0SETU",	"Memory",	0x2009801a,	2,	base=16,	modified
+sfr = "FIO0CLR",	"Memory",	0x2009801c,	4,	base=16,	modified
+sfr = "FIO0CLR0",	"Memory",	0x2009801c,	1,	base=16,	modified
+sfr = "FIO0CLR1",	"Memory",	0x2009801d,	1,	base=16,	modified
+sfr = "FIO0CLR2",	"Memory",	0x2009801e,	1,	base=16,	modified
+sfr = "FIO0CLR3",	"Memory",	0x2009801f,	1,	base=16,	modified
+sfr = "FIO0CLRL",	"Memory",	0x2009801c,	2,	base=16,	modified
+sfr = "FIO0CLRU",	"Memory",	0x2009801e,	2,	base=16,	modified
+sfr = "FIO1DIR",	"Memory",	0x20098020,	4,	base=16,	modified
+sfr = "FIO1DIR0",	"Memory",	0x20098020,	1,	base=16,	modified
+sfr = "FIO1DIR1",	"Memory",	0x20098021,	1,	base=16,	modified
+sfr = "FIO1DIR2",	"Memory",	0x20098022,	1,	base=16,	modified
+sfr = "FIO1DIR3",	"Memory",	0x20098023,	1,	base=16,	modified
+sfr = "FIO1DIRL",	"Memory",	0x20098020,	2,	base=16,	modified
+sfr = "FIO1DIRU",	"Memory",	0x20098022,	2,	base=16,	modified
+sfr = "FIO1MASK",	"Memory",	0x20098030,	4,	base=16,	modified
+sfr = "FIO1MASK0",	"Memory",	0x20098030,	1,	base=16,	modified
+sfr = "FIO1MASK1",	"Memory",	0x20098031,	1,	base=16,	modified
+sfr = "FIO1MASK2",	"Memory",	0x20098032,	1,	base=16,	modified
+sfr = "FIO1MASK3",	"Memory",	0x20098033,	1,	base=16,	modified
+sfr = "FIO1MASKL",	"Memory",	0x20098030,	2,	base=16,	modified
+sfr = "FIO1MASKU",	"Memory",	0x20098032,	2,	base=16,	modified
+sfr = "FIO1PIN",	"Memory",	0x20098034,	4,	base=16,	modified
+sfr = "FIO1PIN0",	"Memory",	0x20098034,	1,	base=16,	modified
+sfr = "FIO1PIN1",	"Memory",	0x20098035,	1,	base=16,	modified
+sfr = "FIO1PIN2",	"Memory",	0x20098036,	1,	base=16,	modified
+sfr = "FIO1PIN3",	"Memory",	0x20098037,	1,	base=16,	modified
+sfr = "FIO1PINL",	"Memory",	0x20098034,	2,	base=16,	modified
+sfr = "FIO1PINU",	"Memory",	0x20098036,	2,	base=16,	modified
+sfr = "FIO1SET",	"Memory",	0x20098038,	4,	base=16,	modified
+sfr = "FIO1SET0",	"Memory",	0x20098038,	1,	base=16,	modified
+sfr = "FIO1SET1",	"Memory",	0x20098039,	1,	base=16,	modified
+sfr = "FIO1SET2",	"Memory",	0x2009803a,	1,	base=16,	modified
+sfr = "FIO1SET3",	"Memory",	0x2009803b,	1,	base=16,	modified
+sfr = "FIO1SETL",	"Memory",	0x20098038,	2,	base=16,	modified
+sfr = "FIO1SETU",	"Memory",	0x2009803a,	2,	base=16,	modified
+sfr = "FIO1CLR",	"Memory",	0x2009803c,	4,	base=16,	modified
+sfr = "FIO1CLR0",	"Memory",	0x2009803c,	1,	base=16,	modified
+sfr = "FIO1CLR1",	"Memory",	0x2009803d,	1,	base=16,	modified
+sfr = "FIO1CLR2",	"Memory",	0x2009803e,	1,	base=16,	modified
+sfr = "FIO1CLR3",	"Memory",	0x2009803f,	1,	base=16,	modified
+sfr = "FIO1CLRL",	"Memory",	0x2009803c,	2,	base=16,	modified
+sfr = "FIO1CLRU",	"Memory",	0x2009803e,	2,	base=16,	modified
+sfr = "FIO2DIR",	"Memory",	0x20098040,	4,	base=16,	modified
+sfr = "FIO2DIR0",	"Memory",	0x20098040,	1,	base=16,	modified
+sfr = "FIO2DIR1",	"Memory",	0x20098041,	1,	base=16,	modified
+sfr = "FIO2DIR2",	"Memory",	0x20098042,	1,	base=16,	modified
+sfr = "FIO2DIR3",	"Memory",	0x20098043,	1,	base=16,	modified
+sfr = "FIO2DIRL",	"Memory",	0x20098040,	2,	base=16,	modified
+sfr = "FIO2DIRU",	"Memory",	0x20098042,	2,	base=16,	modified
+sfr = "FIO2MASK",	"Memory",	0x20098050,	4,	base=16,	modified
+sfr = "FIO2MASK0",	"Memory",	0x20098050,	1,	base=16,	modified
+sfr = "FIO2MASK1",	"Memory",	0x20098051,	1,	base=16,	modified
+sfr = "FIO2MASK2",	"Memory",	0x20098052,	1,	base=16,	modified
+sfr = "FIO2MASK3",	"Memory",	0x20098053,	1,	base=16,	modified
+sfr = "FIO2MASKL",	"Memory",	0x20098050,	2,	base=16,	modified
+sfr = "FIO2MASKU",	"Memory",	0x20098052,	2,	base=16,	modified
+sfr = "FIO2PIN",	"Memory",	0x20098054,	4,	base=16,	modified
+sfr = "FIO2PIN0",	"Memory",	0x20098054,	1,	base=16,	modified
+sfr = "FIO2PIN1",	"Memory",	0x20098055,	1,	base=16,	modified
+sfr = "FIO2PIN2",	"Memory",	0x20098056,	1,	base=16,	modified
+sfr = "FIO2PIN3",	"Memory",	0x20098057,	1,	base=16,	modified
+sfr = "FIO2PINL",	"Memory",	0x20098054,	2,	base=16,	modified
+sfr = "FIO2PINU",	"Memory",	0x20098056,	2,	base=16,	modified
+sfr = "FIO2SET",	"Memory",	0x20098058,	4,	base=16,	modified
+sfr = "FIO2SET0",	"Memory",	0x20098058,	1,	base=16,	modified
+sfr = "FIO2SET1",	"Memory",	0x20098059,	1,	base=16,	modified
+sfr = "FIO2SET2",	"Memory",	0x2009805a,	1,	base=16,	modified
+sfr = "FIO2SET3",	"Memory",	0x2009805b,	1,	base=16,	modified
+sfr = "FIO2SETL",	"Memory",	0x20098058,	2,	base=16,	modified
+sfr = "FIO2SETU",	"Memory",	0x2009805a,	2,	base=16,	modified
+sfr = "FIO2CLR",	"Memory",	0x2009805c,	4,	base=16,	modified
+sfr = "FIO2CLR0",	"Memory",	0x2009805c,	1,	base=16,	modified
+sfr = "FIO2CLR1",	"Memory",	0x2009805d,	1,	base=16,	modified
+sfr = "FIO2CLR2",	"Memory",	0x2009805e,	1,	base=16,	modified
+sfr = "FIO2CLR3",	"Memory",	0x2009805f,	1,	base=16,	modified
+sfr = "FIO2CLRL",	"Memory",	0x2009805c,	2,	base=16,	modified
+sfr = "FIO2CLRU",	"Memory",	0x2009805e,	2,	base=16,	modified
+sfr = "FIO3DIR",	"Memory",	0x20098060,	4,	base=16,	modified
+sfr = "FIO3DIR0",	"Memory",	0x20098060,	1,	base=16,	modified
+sfr = "FIO3DIR1",	"Memory",	0x20098061,	1,	base=16,	modified
+sfr = "FIO3DIR2",	"Memory",	0x20098062,	1,	base=16,	modified
+sfr = "FIO3DIR3",	"Memory",	0x20098063,	1,	base=16,	modified
+sfr = "FIO3DIRL",	"Memory",	0x20098060,	2,	base=16,	modified
+sfr = "FIO3DIRU",	"Memory",	0x20098062,	2,	base=16,	modified
+sfr = "FIO3MASK",	"Memory",	0x20098070,	4,	base=16,	modified
+sfr = "FIO3MASK0",	"Memory",	0x20098070,	1,	base=16,	modified
+sfr = "FIO3MASK1",	"Memory",	0x20098071,	1,	base=16,	modified
+sfr = "FIO3MASK2",	"Memory",	0x20098072,	1,	base=16,	modified
+sfr = "FIO3MASK3",	"Memory",	0x20098073,	1,	base=16,	modified
+sfr = "FIO3MASKL",	"Memory",	0x20098070,	2,	base=16,	modified
+sfr = "FIO3MASKU",	"Memory",	0x20098072,	2,	base=16,	modified
+sfr = "FIO3PIN",	"Memory",	0x20098074,	4,	base=16,	modified
+sfr = "FIO3PIN0",	"Memory",	0x20098074,	1,	base=16,	modified
+sfr = "FIO3PIN1",	"Memory",	0x20098075,	1,	base=16,	modified
+sfr = "FIO3PIN2",	"Memory",	0x20098076,	1,	base=16,	modified
+sfr = "FIO3PIN3",	"Memory",	0x20098077,	1,	base=16,	modified
+sfr = "FIO3PINL",	"Memory",	0x20098074,	2,	base=16,	modified
+sfr = "FIO3PINU",	"Memory",	0x20098076,	2,	base=16,	modified
+sfr = "FIO3SET",	"Memory",	0x20098078,	4,	base=16,	modified
+sfr = "FIO3SET0",	"Memory",	0x20098078,	1,	base=16,	modified
+sfr = "FIO3SET1",	"Memory",	0x20098079,	1,	base=16,	modified
+sfr = "FIO3SET2",	"Memory",	0x2009807a,	1,	base=16,	modified
+sfr = "FIO3SET3",	"Memory",	0x2009807b,	1,	base=16,	modified
+sfr = "FIO3SETL",	"Memory",	0x20098078,	2,	base=16,	modified
+sfr = "FIO3SETU",	"Memory",	0x2009807a,	2,	base=16,	modified
+sfr = "FIO3CLR",	"Memory",	0x2009807c,	4,	base=16,	modified
+sfr = "FIO3CLR0",	"Memory",	0x2009807c,	1,	base=16,	modified
+sfr = "FIO3CLR1",	"Memory",	0x2009807d,	1,	base=16,	modified
+sfr = "FIO3CLR2",	"Memory",	0x2009807e,	1,	base=16,	modified
+sfr = "FIO3CLR3",	"Memory",	0x2009807f,	1,	base=16,	modified
+sfr = "FIO3CLRL",	"Memory",	0x2009807c,	2,	base=16,	modified
+sfr = "FIO3CLRU",	"Memory",	0x2009807e,	2,	base=16,	modified
+sfr = "FIO4DIR",	"Memory",	0x20098080,	4,	base=16,	modified
+sfr = "FIO4DIR0",	"Memory",	0x20098080,	1,	base=16,	modified
+sfr = "FIO4DIR1",	"Memory",	0x20098081,	1,	base=16,	modified
+sfr = "FIO4DIR2",	"Memory",	0x20098082,	1,	base=16,	modified
+sfr = "FIO4DIR3",	"Memory",	0x20098083,	1,	base=16,	modified
+sfr = "FIO4DIRL",	"Memory",	0x20098080,	2,	base=16,	modified
+sfr = "FIO4DIRU",	"Memory",	0x20098082,	2,	base=16,	modified
+sfr = "FIO4MASK",	"Memory",	0x20098090,	4,	base=16,	modified
+sfr = "FIO4MASK0",	"Memory",	0x20098090,	1,	base=16,	modified
+sfr = "FIO4MASK1",	"Memory",	0x20098091,	1,	base=16,	modified
+sfr = "FIO4MASK2",	"Memory",	0x20098092,	1,	base=16,	modified
+sfr = "FIO4MASK3",	"Memory",	0x20098093,	1,	base=16,	modified
+sfr = "FIO4MASKL",	"Memory",	0x20098090,	2,	base=16,	modified
+sfr = "FIO4PIN",	"Memory",	0x20098094,	4,	base=16,	modified
+sfr = "FIO4PIN0",	"Memory",	0x20098094,	1,	base=16,	modified
+sfr = "FIO4PIN1",	"Memory",	0x20098095,	1,	base=16,	modified
+sfr = "FIO4PIN2",	"Memory",	0x20098096,	1,	base=16,	modified
+sfr = "FIO4PIN3",	"Memory",	0x20098097,	1,	base=16,	modified
+sfr = "FIO4PINL",	"Memory",	0x20098094,	2,	base=16,	modified
+sfr = "FIO4PINU",	"Memory",	0x20098096,	2,	base=16,	modified
+sfr = "FIO4SET",	"Memory",	0x20098098,	4,	base=16,	modified
+sfr = "FIO4SET0",	"Memory",	0x20098098,	1,	base=16,	modified
+sfr = "FIO4SET1",	"Memory",	0x20098099,	1,	base=16,	modified
+sfr = "FIO4SET2",	"Memory",	0x2009809a,	1,	base=16,	modified
+sfr = "FIO4SET3",	"Memory",	0x2009809b,	1,	base=16,	modified
+sfr = "FIO4SETL",	"Memory",	0x20098098,	2,	base=16,	modified
+sfr = "FIO4SETU",	"Memory",	0x2009809a,	2,	base=16,	modified
+sfr = "FIO4CLR",	"Memory",	0x2009809c,	4,	base=16,	modified
+sfr = "FIO4CLR0",	"Memory",	0x2009809c,	1,	base=16,	modified
+sfr = "FIO4CLR1",	"Memory",	0x2009809d,	1,	base=16,	modified
+sfr = "FIO4CLR2",	"Memory",	0x2009809e,	1,	base=16,	modified
+sfr = "FIO4CLR3",	"Memory",	0x2009809f,	1,	base=16,	modified
+sfr = "FIO4CLRL",	"Memory",	0x2009809c,	2,	base=16,	modified
+sfr = "FIO4CLRU",	"Memory",	0x2009809e,	2,	base=16,	modified
+sfr = "FIO5DIR",	"Memory",	0x200980a0,	4,	base=16,	modified
+sfr = "FIO5DIR0",	"Memory",	0x200980a0,	1,	base=16,	modified
+sfr = "FIO5DIRL",	"Memory",	0x200980a0,	2,	base=16,	modified
+sfr = "FIO5MASK",	"Memory",	0x200980b0,	4,	base=16,	modified
+sfr = "FIO5MASK0",	"Memory",	0x200980b0,	1,	base=16,	modified
+sfr = "FIO5MASKL",	"Memory",	0x200980b0,	2,	base=16,	modified
+sfr = "FIO5PIN",	"Memory",	0x200980b4,	4,	base=16,	modified
+sfr = "FIO5PIN0",	"Memory",	0x200980b4,	1,	base=16,	modified
+sfr = "FIO5PINL",	"Memory",	0x200980b4,	2,	base=16,	modified
+sfr = "FIO5SET",	"Memory",	0x200980b8,	4,	base=16,	modified
+sfr = "FIO5SET0",	"Memory",	0x200980b8,	1,	base=16,	modified
+sfr = "FIO5SETL",	"Memory",	0x200980b8,	2,	base=16,	modified
+sfr = "FIO5CLR",	"Memory",	0x200980bc,	4,	base=16,	modified
+sfr = "FIO5CLR0",	"Memory",	0x200980bc,	1,	base=16,	modified
+sfr = "FIO5CLRL",	"Memory",	0x200980bc,	2,	base=16,	modified
+sfr = "IO0INTENR",	"Memory",	0x40028090,	4,	base=16,	modified
+sfr = "IO0INTENF",	"Memory",	0x40028094,	4,	base=16,	modified
+sfr = "IO0INTSTATR",	"Memory",	0x40028084,	4,	base=16,	modified
+sfr = "IO0INTSTATF",	"Memory",	0x40028088,	4,	base=16,	modified
+sfr = "IO0INTCLR",	"Memory",	0x4002808c,	4,	base=16,	modified
+sfr = "IO2INTENR",	"Memory",	0x400280b0,	4,	base=16,	modified
+sfr = "IO2INTENF",	"Memory",	0x400280b4,	4,	base=16,	modified
+sfr = "IO2INTSTATR",	"Memory",	0x400280a4,	4,	base=16,	modified
+sfr = "IO2INTSTATF",	"Memory",	0x400280a8,	4,	base=16,	modified
+sfr = "IO2INTCLR",	"Memory",	0x400280ac,	4,	base=16,	modified
+sfr = "IOINTSTATUS",	"Memory",	0x40028080,	4,	base=16,	modified
+sfr = "EMCControl",	"Memory",	0x2009c000,	4,	base=16,	modified
+sfr = "EMCStatus",	"Memory",	0x2009c004,	4,	base=16,	modified
+sfr = "EMCConfig",	"Memory",	0x2009c008,	4,	base=16,	modified
+sfr = "EMCDynamicRefresh",	"Memory",	0x2009c024,	4,	base=16,	modified
+sfr = "EMCDynamicReadConfig",	"Memory",	0x2009c028,	4,	base=16,	modified
+sfr = "EMCDynamictRP",	"Memory",	0x2009c030,	4,	base=16,	modified
+sfr = "EMCDynamictRAS",	"Memory",	0x2009c034,	4,	base=16,	modified
+sfr = "EMCDynamictAPR",	"Memory",	0x2009c03c,	4,	base=16,	modified
+sfr = "EMCDynamictDAL",	"Memory",	0x2009c040,	4,	base=16,	modified
+sfr = "EMCDynamictWR",	"Memory",	0x2009c044,	4,	base=16,	modified
+sfr = "EMCDynamictRC",	"Memory",	0x2009c048,	4,	base=16,	modified
+sfr = "EMCDynamictRFC",	"Memory",	0x2009c04c,	4,	base=16,	modified
+sfr = "EMCDynamictXSR",	"Memory",	0x2009c050,	4,	base=16,	modified
+sfr = "EMCDynamictRRD",	"Memory",	0x2009c054,	4,	base=16,	modified
+sfr = "EMCDynamictMRD",	"Memory",	0x2009c058,	4,	base=16,	modified
+sfr = "EMCStaticExtendedWait",	"Memory",	0x2009c080,	4,	base=16,	modified
+sfr = "EMCDynamicConfig0",	"Memory",	0x2009c100,	4,	base=16,	modified
+sfr = "EMCDynamicRasCas0",	"Memory",	0x2009c104,	4,	base=16,	modified
+sfr = "EMCDynamicConfig1",	"Memory",	0x2009c120,	4,	base=16,	modified
+sfr = "EMCDynamicRasCas1",	"Memory",	0x2009c124,	4,	base=16,	modified
+sfr = "EMCDynamicConfig2",	"Memory",	0x2009c140,	4,	base=16,	modified
+sfr = "EMCDynamicRasCas2",	"Memory",	0x2009c144,	4,	base=16,	modified
+sfr = "EMCDynamicConfig3",	"Memory",	0x2009c160,	4,	base=16,	modified
+sfr = "EMCDynamicRasCas3",	"Memory",	0x2009c164,	4,	base=16,	modified
+sfr = "EMCStaticConfig0",	"Memory",	0x2009c200,	4,	base=16,	modified
+sfr = "EMCStaticWaitWen0",	"Memory",	0x2009c204,	4,	base=16,	modified
+sfr = "EMCStaticWaitOen0",	"Memory",	0x2009c208,	4,	base=16,	modified
+sfr = "EMCStaticWaitRd0",	"Memory",	0x2009c20c,	4,	base=16,	modified
+sfr = "EMCStaticWaitPage0",	"Memory",	0x2009c210,	4,	base=16,	modified
+sfr = "EMCStaticWaitWr0",	"Memory",	0x2009c214,	4,	base=16,	modified
+sfr = "EMCStaticWaitTurn0",	"Memory",	0x2009c218,	4,	base=16,	modified
+sfr = "EMCStaticConfig1",	"Memory",	0x2009c220,	4,	base=16,	modified
+sfr = "EMCStaticWaitWen1",	"Memory",	0x2009c224,	4,	base=16,	modified
+sfr = "EMCStaticWaitOen1",	"Memory",	0x2009c228,	4,	base=16,	modified
+sfr = "EMCStaticWaitRd1",	"Memory",	0x2009c22c,	4,	base=16,	modified
+sfr = "EMCStaticWaitPage1",	"Memory",	0x2009c230,	4,	base=16,	modified
+sfr = "EMCStaticWaitWr1",	"Memory",	0x2009c234,	4,	base=16,	modified
+sfr = "EMCStaticWaitTurn1",	"Memory",	0x2009c238,	4,	base=16,	modified
+sfr = "EMCStaticConfig2",	"Memory",	0x2009c240,	4,	base=16,	modified
+sfr = "EMCStaticWaitWen2",	"Memory",	0x2009c244,	4,	base=16,	modified
+sfr = "EMCStaticWaitOen2",	"Memory",	0x2009c248,	4,	base=16,	modified
+sfr = "EMCStaticWaitRd2",	"Memory",	0x2009c24c,	4,	base=16,	modified
+sfr = "EMCStaticWaitPage2",	"Memory",	0x2009c250,	4,	base=16,	modified
+sfr = "EMCStaticWaitWr2",	"Memory",	0x2009c254,	4,	base=16,	modified
+sfr = "EMCStaticWaitTurn2",	"Memory",	0x2009c258,	4,	base=16,	modified
+sfr = "EMCStaticConfig3",	"Memory",	0x2009c260,	4,	base=16,	modified
+sfr = "EMCStaticWaitOen3",	"Memory",	0x2009c268,	4,	base=16,	modified
+sfr = "EMCStaticWaitRd3",	"Memory",	0x2009c26c,	4,	base=16,	modified
+sfr = "EMCStaticWaitPage3",	"Memory",	0x2009c270,	4,	base=16,	modified
+sfr = "EMCDLYCTL",	"Memory",	0x400fc1dc,	4,	base=16,	modified
+sfr = "EMCCAL",	"Memory",	0x400fc1e0,	4,	base=16,	modified
+sfr = "MAC1",	"Memory",	0x20084000,	4,	base=16,	modified
+sfr = "MAC2",	"Memory",	0x20084004,	4,	base=16,	modified
+sfr = "IPGT",	"Memory",	0x20084008,	4,	base=16,	modified
+sfr = "IPGR",	"Memory",	0x2008400c,	4,	base=16,	modified
+sfr = "CLRT",	"Memory",	0x20084010,	4,	base=16,	modified
+sfr = "MAXF",	"Memory",	0x20084014,	4,	base=16,	modified
+sfr = "SUPP",	"Memory",	0x20084018,	4,	base=16,	modified
+sfr = "TEST",	"Memory",	0x2008401c,	4,	base=16,	modified
+sfr = "MCFG",	"Memory",	0x20084020,	4,	base=16,	modified
+sfr = "MCMD",	"Memory",	0x20084024,	4,	base=16,	modified
+sfr = "MADR",	"Memory",	0x20084028,	4,	base=16,	modified
+sfr = "MWTD",	"Memory",	0x2008402c,	4,	base=16,	modified
+sfr = "MRDD",	"Memory",	0x20084030,	4,	base=16,	modified
+sfr = "MIND",	"Memory",	0x20084034,	4,	base=16,	modified
+sfr = "SA0",	"Memory",	0x20084040,	4,	base=16,	modified
+sfr = "SA1",	"Memory",	0x20084044,	4,	base=16,	modified
+sfr = "SA2",	"Memory",	0x20084048,	4,	base=16,	modified
+sfr = "Command",	"Memory",	0x20084100,	4,	base=16,	modified
+sfr = "Status",	"Memory",	0x20084104,	4,	base=16,	modified
+sfr = "RxDescriptor",	"Memory",	0x20084108,	4,	base=16,	modified
+sfr = "RxStatus",	"Memory",	0x2008410c,	4,	base=16,	modified
+sfr = "RxDescriptorNumber",	"Memory",	0x20084110,	4,	base=16,	modified
+sfr = "RxProduceIndex",	"Memory",	0x20084114,	4,	base=16,	modified
+sfr = "RxConsumeIndex",	"Memory",	0x20084118,	4,	base=16,	modified
+sfr = "TxDescriptor",	"Memory",	0x2008411c,	4,	base=16,	modified
+sfr = "TxStatus",	"Memory",	0x20084120,	4,	base=16,	modified
+sfr = "TxDescriptorNumber",	"Memory",	0x20084124,	4,	base=16,	modified
+sfr = "TxProduceIndex",	"Memory",	0x20084128,	4,	base=16,	modified
+sfr = "TxConsumeIndex",	"Memory",	0x2008412c,	4,	base=16,	modified
+sfr = "TSV0",	"Memory",	0x20084158,	4,	base=16,	modified
+sfr = "TSV1",	"Memory",	0x2008415c,	4,	base=16,	modified
+sfr = "RSV",	"Memory",	0x20084160,	4,	base=16,	modified
+sfr = "FlowControlCounter",	"Memory",	0x20084170,	4,	base=16,	modified
+sfr = "FlowControlStatus",	"Memory",	0x20084174,	4,	base=16,	modified
+sfr = "RxFilterCtrl",	"Memory",	0x20084200,	4,	base=16,	modified
+sfr = "RxFilterWoLStatus",	"Memory",	0x20084204,	4,	base=16,	modified
+sfr = "RxFilterWoLClear",	"Memory",	0x20084208,	4,	base=16,	modified
+sfr = "HashFilterL",	"Memory",	0x20084210,	4,	base=16,	modified
+sfr = "HashFilterH",	"Memory",	0x20084214,	4,	base=16,	modified
+sfr = "IntStatus",	"Memory",	0x20084fe0,	4,	base=16,	modified
+sfr = "IntEnable",	"Memory",	0x20084fe4,	4,	base=16,	modified
+sfr = "IntClear",	"Memory",	0x20084fe8,	4,	base=16,	modified
+sfr = "IntSet",	"Memory",	0x20084fec,	4,	base=16,	modified
+sfr = "PowerDown",	"Memory",	0x20084ff4,	4,	base=16,	modified
+sfr = "USBPORTSEL",	"Memory",	0x2008c110,	4,	base=16,	modified
+sfr = "USBCLKCTRL",	"Memory",	0x2008cff4,	4,	base=16,	modified
+sfr = "USBCLKST",	"Memory",	0x2008cff8,	4,	base=16,	modified
+sfr = "USBINTS",	"Memory",	0x400fc1c0,	4,	base=16,	modified
+sfr = "USBDEVINTST",	"Memory",	0x2008c200,	4,	base=16,	modified
+sfr = "USBDEVINTEN",	"Memory",	0x2008c204,	4,	base=16,	modified
+sfr = "USBDEVINTCLR",	"Memory",	0x2008c208,	4,	base=16,	modified
+sfr = "USBDEVINTSET",	"Memory",	0x2008c20c,	4,	base=16,	modified
+sfr = "USBDEVINTPRI",	"Memory",	0x2008c22c,	1,	base=16,	modified
+sfr = "USBEPINTST",	"Memory",	0x2008c230,	4,	base=16,	modified
+sfr = "USBEPINTEN",	"Memory",	0x2008c234,	4,	base=16,	modified
+sfr = "USBEPINTCLR",	"Memory",	0x2008c238,	4,	base=16,	modified
+sfr = "USBEPINTSET",	"Memory",	0x2008c23c,	4,	base=16,	modified
+sfr = "USBEPINTPRI",	"Memory",	0x2008c240,	4,	base=16,	modified
+sfr = "USBREEP",	"Memory",	0x2008c244,	4,	base=16,	modified
+sfr = "USBEPIN",	"Memory",	0x2008c248,	4,	base=16,	modified
+sfr = "USBMAXPSIZE",	"Memory",	0x2008c24c,	4,	base=16,	modified
+sfr = "USBRXDATA",	"Memory",	0x2008c218,	4,	base=16,	modified
+sfr = "USBRXPLEN",	"Memory",	0x2008c220,	4,	base=16,	modified
+sfr = "TDATA",	"Memory",	0x2008c21c,	4,	base=16,	modified
+sfr = "USBTXPLEN",	"Memory",	0x2008c224,	4,	base=16,	modified
+sfr = "USBCTRL",	"Memory",	0x2008c228,	4,	base=16,	modified
+sfr = "USBCMDCODE",	"Memory",	0x2008c210,	4,	base=16,	modified
+sfr = "USBCMDDATA",	"Memory",	0x2008c214,	4,	base=16,	modified
+sfr = "USBDMARST",	"Memory",	0x2008c250,	4,	base=16,	modified
+sfr = "USBDMARCLR",	"Memory",	0x2008c254,	4,	base=16,	modified
+sfr = "USBDMARSET",	"Memory",	0x2008c258,	4,	base=16,	modified
+sfr = "USBUDCAH",	"Memory",	0x2008c280,	4,	base=16,	modified
+sfr = "USBEPDMAST",	"Memory",	0x2008c284,	4,	base=16,	modified
+sfr = "USBEPDMAEN",	"Memory",	0x2008c288,	4,	base=16,	modified
+sfr = "USBEPDMADIS",	"Memory",	0x2008c28c,	4,	base=16,	modified
+sfr = "USBDMAINTST",	"Memory",	0x2008c290,	4,	base=16,	modified
+sfr = "USBDMAINTEN",	"Memory",	0x2008c294,	4,	base=16,	modified
+sfr = "USBEOTINTST",	"Memory",	0x2008c2a0,	4,	base=16,	modified
+sfr = "USBEOTINTCLR",	"Memory",	0x2008c2a4,	4,	base=16,	modified
+sfr = "USBEOTINTSET",	"Memory",	0x2008c2a8,	4,	base=16,	modified
+sfr = "USBNDDRINTST",	"Memory",	0x2008c2ac,	4,	base=16,	modified
+sfr = "USBNDDRINTCLR",	"Memory",	0x2008c2b0,	4,	base=16,	modified
+sfr = "USBNDDRINTSET",	"Memory",	0x2008c2b4,	4,	base=16,	modified
+sfr = "USBSYSERRINTST",	"Memory",	0x2008c2b8,	4,	base=16,	modified
+sfr = "USBSYSERRINTCLR",	"Memory",	0x2008c2bc,	4,	base=16,	modified
+sfr = "USBSYSERRINTSET",	"Memory",	0x2008c2c0,	4,	base=16,	modified
+sfr = "HCREVISION",	"Memory",	0x2008c000,	4,	base=16,	modified
+sfr = "HCCONTROL",	"Memory",	0x2008c004,	4,	base=16,	modified
+sfr = "HCCOMMANDSTATUS",	"Memory",	0x2008c008,	4,	base=16,	modified
+sfr = "HCINTERRUPTSTATUS",	"Memory",	0x2008c00c,	4,	base=16,	modified
+sfr = "HCINTERRUPTENABLE",	"Memory",	0x2008c010,	4,	base=16,	modified
+sfr = "HCINTERRUPTDISABLE",	"Memory",	0x2008c014,	4,	base=16,	modified
+sfr = "HCHCCA",	"Memory",	0x2008c018,	4,	base=16,	modified
+sfr = "HCPERIODCURRENTED",	"Memory",	0x2008c01c,	4,	base=16,	modified
+sfr = "HCCONTROLHEADED",	"Memory",	0x2008c020,	4,	base=16,	modified
+sfr = "HCCONTROLCURRENTED",	"Memory",	0x2008c024,	4,	base=16,	modified
+sfr = "HCBULKHEADED",	"Memory",	0x2008c028,	4,	base=16,	modified
+sfr = "HCBULKCURRENTED",	"Memory",	0x2008c02c,	4,	base=16,	modified
+sfr = "HCDONEHEAD",	"Memory",	0x2008c030,	4,	base=16,	modified
+sfr = "HCFMINTERVAL",	"Memory",	0x2008c034,	4,	base=16,	modified
+sfr = "HCFMREMAINING",	"Memory",	0x2008c038,	4,	base=16,	modified
+sfr = "HCFMNUMBER",	"Memory",	0x2008c03c,	4,	base=16,	modified
+sfr = "HCPERIODICSTART",	"Memory",	0x2008c040,	4,	base=16,	modified
+sfr = "HCLSTHRESHOLD",	"Memory",	0x2008c044,	4,	base=16,	modified
+sfr = "HCRHDESCRIPTORA",	"Memory",	0x2008c048,	4,	base=16,	modified
+sfr = "HCRHDESCRIPTORB",	"Memory",	0x2008c04c,	4,	base=16,	modified
+sfr = "HCRHSTATUS",	"Memory",	0x2008c050,	4,	base=16,	modified
+sfr = "HCRHPORTSTATUS1",	"Memory",	0x2008c054,	4,	base=16,	modified
+sfr = "HCRHPORTSTATUS2",	"Memory",	0x2008c058,	4,	base=16,	modified
+sfr = "HCRMID",	"Memory",	0x2008c0fc,	4,	base=16,	modified
+sfr = "OTGINTST",	"Memory",	0x2008c100,	4,	base=16,	modified
+sfr = "OTGINTEN",	"Memory",	0x2008c104,	4,	base=16,	modified
+sfr = "OTGINTSET",	"Memory",	0x2008c108,	4,	base=16,	modified
+sfr = "OTGINTCLR",	"Memory",	0x2008c10c,	4,	base=16,	modified
+sfr = "OTGSTCTRL",	"Memory",	0x2008c110,	4,	base=16,	modified
+sfr = "OTGTMR",	"Memory",	0x2008c114,	4,	base=16,	modified
+sfr = "I2C_RX",	"Memory",	0x2008c300,	4,	base=16,	modified
+sfr = "I2C_TX",	"Memory",	0x2008c300,	4,	base=16,	modified
+sfr = "I2C_STS",	"Memory",	0x2008c304,	4,	base=16,	modified
+sfr = "I2C_CTL",	"Memory",	0x2008c308,	4,	base=16,	modified
+sfr = "I2C_CLKHI",	"Memory",	0x2008c30c,	4,	base=16,	modified
+sfr = "I2C_CLKLO",	"Memory",	0x2008c310,	4,	base=16,	modified
+sfr = "OTGCLKCTRL",	"Memory",	0x2008cff4,	4,	base=16,	modified
+sfr = "OTGCLKST",	"Memory",	0x2008cff8,	4,	base=16,	modified
+sfr = "MCIPOWER",	"Memory",	0x400c0000,	4,	base=16,	modified
+sfr = "MCICLOCK",	"Memory",	0x400c0004,	4,	base=16,	modified
+sfr = "MCIARGUMENT",	"Memory",	0x400c0008,	4,	base=16,	modified
+sfr = "MCICOMMAND",	"Memory",	0x400c000c,	4,	base=16,	modified
+sfr = "MCIRESPCMD",	"Memory",	0x400c0010,	4,	base=16,	modified
+sfr = "MCIRESPONSE0",	"Memory",	0x400c0014,	4,	base=16,	modified
+sfr = "MCIRESPONSE1",	"Memory",	0x400c0018,	4,	base=16,	modified
+sfr = "MCIRESPONSE2",	"Memory",	0x400c001c,	4,	base=16,	modified
+sfr = "MCIRESPONSE3",	"Memory",	0x400c0020,	4,	base=16,	modified
+sfr = "MCIDATATIMER",	"Memory",	0x400c0024,	4,	base=16,	modified
+sfr = "MCIDATALENGTH",	"Memory",	0x400c0028,	2,	base=16,	modified
+sfr = "MCIDATACTRL",	"Memory",	0x400c002c,	4,	base=16,	modified
+sfr = "MCIDATACNT",	"Memory",	0x400c0030,	2,	base=16,	modified
+sfr = "MCISTATUS",	"Memory",	0x400c0034,	4,	base=16,	modified
+sfr = "MCICLEAR",	"Memory",	0x400c0038,	4,	base=16,	modified
+sfr = "MCIMASK0",	"Memory",	0x400c003c,	4,	base=16,	modified
+sfr = "MCIFIFOCNT",	"Memory",	0x400c0048,	4,	base=16,	modified
+sfr = "MCIFIFO0",	"Memory",	0x400c0080,	4,	base=16,	modified
+sfr = "MCIFIFO1",	"Memory",	0x400c0084,	4,	base=16,	modified
+sfr = "MCIFIFO2",	"Memory",	0x400c0088,	4,	base=16,	modified
+sfr = "MCIFIFO3",	"Memory",	0x400c008c,	4,	base=16,	modified
+sfr = "MCIFIFO4",	"Memory",	0x400c0090,	4,	base=16,	modified
+sfr = "MCIFIFO5",	"Memory",	0x400c0094,	4,	base=16,	modified
+sfr = "MCIFIFO6",	"Memory",	0x400c0098,	4,	base=16,	modified
+sfr = "MCIFIFO7",	"Memory",	0x400c009c,	4,	base=16,	modified
+sfr = "MCIFIFO8",	"Memory",	0x400c00a0,	4,	base=16,	modified
+sfr = "MCIFIFO9",	"Memory",	0x400c00a4,	4,	base=16,	modified
+sfr = "MCIFIFO10",	"Memory",	0x400c00a8,	4,	base=16,	modified
+sfr = "MCIFIFO11",	"Memory",	0x400c00ac,	4,	base=16,	modified
+sfr = "MCIFIFO12",	"Memory",	0x400c00b0,	4,	base=16,	modified
+sfr = "MCIFIFO13",	"Memory",	0x400c00b4,	4,	base=16,	modified
+sfr = "MCIFIFO14",	"Memory",	0x400c00b8,	4,	base=16,	modified
+sfr = "MCIFIFO15",	"Memory",	0x400c00bc,	4,	base=16,	modified
+sfr = "U0RBRTHR",	"Memory",	0x4000c000,	1,	base=16,	modified
+sfr = "U0DLL",	"Memory",	0x4000c000,	1,	base=16,	modified
+sfr = "U0RBR",	"Memory",	0x4000c000,	1,	base=16,	modified
+sfr = "U0THR",	"Memory",	0x4000c000,	1,	base=16,	modified
+sfr = "U0IER",	"Memory",	0x4000c004,	4,	base=16,	modified
+sfr = "U0DLM",	"Memory",	0x4000c004,	4,	base=16,	modified
+sfr = "U0FCR",	"Memory",	0x4000c008,	4,	base=16,	modified
+sfr = "U0IIR",	"Memory",	0x4000c008,	4,	base=16,	modified
+sfr = "U0LCR",	"Memory",	0x4000c00c,	1,	base=16,	modified
+sfr = "U0LSR",	"Memory",	0x4000c014,	1,	base=16,	modified
+sfr = "U0SCR",	"Memory",	0x4000c01c,	1,	base=16,	modified
+sfr = "U0ACR",	"Memory",	0x4000c020,	4,	base=16,	modified
+sfr = "U0ICR",	"Memory",	0x4000c024,	4,	base=16,	modified
+sfr = "U0FDR",	"Memory",	0x4000c028,	4,	base=16,	modified
+sfr = "U0TER",	"Memory",	0x4000c030,	1,	base=16,	modified
+sfr = "U0RS485CTRL",	"Memory",	0x4000c04c,	4,	base=16,	modified
+sfr = "U0ADRMATCH",	"Memory",	0x4000c050,	1,	base=16,	modified
+sfr = "U0RS485DLY",	"Memory",	0x4000c054,	1,	base=16,	modified
+sfr = "U1RBRTHR",	"Memory",	0x40010000,	1,	base=16,	modified
+sfr = "U1DLL",	"Memory",	0x40010000,	1,	base=16,	modified
+sfr = "U1RBR",	"Memory",	0x40010000,	1,	base=16,	modified
+sfr = "U1THR",	"Memory",	0x40010000,	1,	base=16,	modified
+sfr = "U1IER",	"Memory",	0x40010004,	4,	base=16,	modified
+sfr = "U1DLM",	"Memory",	0x40010004,	4,	base=16,	modified
+sfr = "U1FCR",	"Memory",	0x40010008,	4,	base=16,	modified
+sfr = "U1IIR",	"Memory",	0x40010008,	4,	base=16,	modified
+sfr = "U1LCR",	"Memory",	0x4001000c,	1,	base=16,	modified
+sfr = "U1MCR",	"Memory",	0x40010010,	1,	base=16,	modified
+sfr = "U1LSR",	"Memory",	0x40010014,	1,	base=16,	modified
+sfr = "U1MSR",	"Memory",	0x40010018,	1,	base=16,	modified
+sfr = "U1SCR",	"Memory",	0x4001001c,	1,	base=16,	modified
+sfr = "U1ACR",	"Memory",	0x40010020,	4,	base=16,	modified
+sfr = "U1FDR",	"Memory",	0x40010028,	4,	base=16,	modified
+sfr = "U1TER",	"Memory",	0x40010030,	1,	base=16,	modified
+sfr = "U1RS485CTRL",	"Memory",	0x4001004c,	4,	base=16,	modified
+sfr = "U1ADRMATCH",	"Memory",	0x40010050,	1,	base=16,	modified
+sfr = "U1RS485DLY",	"Memory",	0x40010054,	1,	base=16,	modified
+sfr = "U2RBRTHR",	"Memory",	0x40098000,	1,	base=16,	modified
+sfr = "U2DLL",	"Memory",	0x40098000,	1,	base=16,	modified
+sfr = "U2RBR",	"Memory",	0x40098000,	1,	base=16,	modified
+sfr = "U2THR",	"Memory",	0x40098000,	1,	base=16,	modified
+sfr = "U2IER",	"Memory",	0x40098004,	4,	base=16,	modified
+sfr = "U2DLM",	"Memory",	0x40098004,	4,	base=16,	modified
+sfr = "U2FCR",	"Memory",	0x40098008,	4,	base=16,	modified
+sfr = "U2IIR",	"Memory",	0x40098008,	4,	base=16,	modified
+sfr = "U2LCR",	"Memory",	0x4009800c,	1,	base=16,	modified
+sfr = "U2LSR",	"Memory",	0x40098014,	1,	base=16,	modified
+sfr = "U2SCR",	"Memory",	0x4009801c,	1,	base=16,	modified
+sfr = "U2ACR",	"Memory",	0x40098020,	4,	base=16,	modified
+sfr = "U2ICR",	"Memory",	0x40098024,	4,	base=16,	modified
+sfr = "U2FDR",	"Memory",	0x40098028,	4,	base=16,	modified
+sfr = "U2TER",	"Memory",	0x40098030,	1,	base=16,	modified
+sfr = "U2RS485CTRL",	"Memory",	0x4009804c,	4,	base=16,	modified
+sfr = "U2ADRMATCH",	"Memory",	0x40098050,	1,	base=16,	modified
+sfr = "U2RS485DLY",	"Memory",	0x40098054,	1,	base=16,	modified
+sfr = "U3RBRTHR",	"Memory",	0x4009c000,	1,	base=16,	modified
+sfr = "U3DLL",	"Memory",	0x4009c000,	1,	base=16,	modified
+sfr = "U3RBR",	"Memory",	0x4009c000,	1,	base=16,	modified
+sfr = "U3THR",	"Memory",	0x4009c000,	1,	base=16,	modified
+sfr = "U3IER",	"Memory",	0x4009c004,	4,	base=16,	modified
+sfr = "U3DLM",	"Memory",	0x4009c004,	4,	base=16,	modified
+sfr = "U3FCR",	"Memory",	0x4009c008,	4,	base=16,	modified
+sfr = "U3IIR",	"Memory",	0x4009c008,	4,	base=16,	modified
+sfr = "U3LCR",	"Memory",	0x4009c00c,	1,	base=16,	modified
+sfr = "U3LSR",	"Memory",	0x4009c014,	1,	base=16,	modified
+sfr = "U3SCR",	"Memory",	0x4009c01c,	1,	base=16,	modified
+sfr = "U3ACR",	"Memory",	0x4009c020,	4,	base=16,	modified
+sfr = "U3ICR",	"Memory",	0x4009c024,	4,	base=16,	modified
+sfr = "U3FDR",	"Memory",	0x4009c028,	4,	base=16,	modified
+sfr = "U3TER",	"Memory",	0x4009c030,	1,	base=16,	modified
+sfr = "U3RS485CTRL",	"Memory",	0x4009c04c,	4,	base=16,	modified
+sfr = "U3ADRMATCH",	"Memory",	0x4009c050,	1,	base=16,	modified
+sfr = "U3RS485DLY",	"Memory",	0x4009c054,	1,	base=16,	modified
+sfr = "U4RBRTHR",	"Memory",	0x400a4000,	1,	base=16,	modified
+sfr = "U4DLL",	"Memory",	0x400a4000,	1,	base=16,	modified
+sfr = "U4RBR",	"Memory",	0x400a4000,	1,	base=16,	modified
+sfr = "U4THR",	"Memory",	0x400a4000,	1,	base=16,	modified
+sfr = "U4IER",	"Memory",	0x400a4004,	4,	base=16,	modified
+sfr = "U4DLM",	"Memory",	0x400a4004,	4,	base=16,	modified
+sfr = "U4FCR",	"Memory",	0x400a4008,	4,	base=16,	modified
+sfr = "U4IIR",	"Memory",	0x400a4008,	4,	base=16,	modified
+sfr = "U4LCR",	"Memory",	0x400a400c,	1,	base=16,	modified
+sfr = "U4LSR",	"Memory",	0x400a4014,	1,	base=16,	modified
+sfr = "U4SCR",	"Memory",	0x400a401c,	1,	base=16,	modified
+sfr = "U4ACR",	"Memory",	0x400a4020,	4,	base=16,	modified
+sfr = "U4ICR",	"Memory",	0x400a4024,	4,	base=16,	modified
+sfr = "U4FDR",	"Memory",	0x400a4028,	4,	base=16,	modified
+sfr = "U4OSR",	"Memory",	0x400a4040,	4,	base=16,	modified
+sfr = "U4SCICTRL",	"Memory",	0x400a4048,	4,	base=16,	modified
+sfr = "U4RS485CTRL",	"Memory",	0x400a404c,	4,	base=16,	modified
+sfr = "U4ADRMATCH",	"Memory",	0x400a4050,	1,	base=16,	modified
+sfr = "U4RS485DLY",	"Memory",	0x400a4054,	1,	base=16,	modified
+sfr = "U4SYNCCTRL",	"Memory",	0x400a4058,	4,	base=16,	modified
+sfr = "U4TER",	"Memory",	0x400a405c,	4,	base=16,	modified
+sfr = "AFMR",	"Memory",	0x4003c000,	4,	base=16,	modified
+sfr = "SFF_SA",	"Memory",	0x4003c004,	4,	base=16,	modified
+sfr = "SFF_GRP_SA",	"Memory",	0x4003c008,	4,	base=16,	modified
+sfr = "EFF_SA",	"Memory",	0x4003c00c,	4,	base=16,	modified
+sfr = "EFF_GRP_SA",	"Memory",	0x4003c010,	4,	base=16,	modified
+sfr = "ENDOFTABLE",	"Memory",	0x4003c014,	4,	base=16,	modified
+sfr = "LUTERRAD",	"Memory",	0x4003c018,	4,	base=16,	modified
+sfr = "LUTERR",	"Memory",	0x4003c01c,	4,	base=16,	modified
+sfr = "FCANIE",	"Memory",	0x4003c020,	4,	base=16,	modified
+sfr = "FCANIC0",	"Memory",	0x4003c024,	4,	base=16,	modified
+sfr = "FCANIC1",	"Memory",	0x4003c028,	4,	base=16,	modified
+sfr = "CANTXSR",	"Memory",	0x40040000,	4,	base=16,	modified
+sfr = "CANRXSR",	"Memory",	0x40040004,	4,	base=16,	modified
+sfr = "CANMSR",	"Memory",	0x40040008,	4,	base=16,	modified
+sfr = "CAN1MOD",	"Memory",	0x40044000,	4,	base=16,	modified
+sfr = "CAN1CMR",	"Memory",	0x40044004,	4,	base=16,	modified
+sfr = "CAN1GSR",	"Memory",	0x40044008,	4,	base=16,	modified
+sfr = "CAN1ICR",	"Memory",	0x4004400c,	4,	base=16,	modified
+sfr = "CAN1IER",	"Memory",	0x40044010,	4,	base=16,	modified
+sfr = "CAN1BTR",	"Memory",	0x40044014,	4,	base=16,	modified
+sfr = "CAN1EWL",	"Memory",	0x40044018,	4,	base=16,	modified
+sfr = "CAN1SR",	"Memory",	0x4004401c,	4,	base=16,	modified
+sfr = "CAN1RFS",	"Memory",	0x40044020,	4,	base=16,	modified
+sfr = "CAN1RID",	"Memory",	0x40044024,	4,	base=16,	modified
+sfr = "CAN1RDA",	"Memory",	0x40044028,	4,	base=16,	modified
+sfr = "CAN1TID1",	"Memory",	0x40044034,	4,	base=16,	modified
+sfr = "CAN1TDA2",	"Memory",	0x40044048,	4,	base=16,	modified
+sfr = "CAN1TDB2",	"Memory",	0x4004404c,	4,	base=16,	modified
+sfr = "CAN1TFI3",	"Memory",	0x40044050,	4,	base=16,	modified
+sfr = "CAN1TID3",	"Memory",	0x40044054,	4,	base=16,	modified
+sfr = "CAN1TDA3",	"Memory",	0x40044058,	4,	base=16,	modified
+sfr = "CAN1TDB3",	"Memory",	0x4004405c,	4,	base=16,	modified
+sfr = "CAN2MOD",	"Memory",	0x40048000,	4,	base=16,	modified
+sfr = "CAN2GSR",	"Memory",	0x40048008,	4,	base=16,	modified
+sfr = "CAN2ICR",	"Memory",	0x4004800c,	4,	base=16,	modified
+sfr = "CAN2IER",	"Memory",	0x40048010,	4,	base=16,	modified
+sfr = "CAN2BTR",	"Memory",	0x40048014,	4,	base=16,	modified
+sfr = "CAN2EWL",	"Memory",	0x40048018,	4,	base=16,	modified
+sfr = "CAN2SR",	"Memory",	0x4004801c,	4,	base=16,	modified
+sfr = "CAN2RFS",	"Memory",	0x40048020,	4,	base=16,	modified
+sfr = "CAN2RID",	"Memory",	0x40048024,	4,	base=16,	modified
+sfr = "CAN2TFI1",	"Memory",	0x40048030,	4,	base=16,	modified
+sfr = "CAN2TID1",	"Memory",	0x40048034,	4,	base=16,	modified
+sfr = "CAN2TDA1",	"Memory",	0x40048038,	4,	base=16,	modified
+sfr = "CAN2TFI2",	"Memory",	0x40048040,	4,	base=16,	modified
+sfr = "CAN2TID2",	"Memory",	0x40048044,	4,	base=16,	modified
+sfr = "CAN2TFI3",	"Memory",	0x40048050,	4,	base=16,	modified
+sfr = "CAN2TDB3",	"Memory",	0x4004805c,	4,	base=16,	modified
+sfr = "CANSLEEPCLR",	"Memory",	0x400fc110,	4,	base=16,	modified
+sfr = "CANWAKEFLAGS",	"Memory",	0x400fc114,	4,	base=16,	modified
+sfr = "SSP0CR0",	"Memory",	0x40088000,	4,	base=16,	modified
+sfr = "SSP0CR1",	"Memory",	0x40088004,	4,	base=16,	modified
+sfr = "SSP0DR",	"Memory",	0x40088008,	4,	base=16,	modified
+sfr = "SSP0IMSC",	"Memory",	0x40088014,	4,	base=16,	modified
+sfr = "SSP0RIS",	"Memory",	0x40088018,	4,	base=16,	modified
+sfr = "SSP1CR0",	"Memory",	0x40030000,	4,	base=16,	modified
+sfr = "SSP1CR1",	"Memory",	0x40030004,	4,	base=16,	modified
+sfr = "SSP1DR",	"Memory",	0x40030008,	4,	base=16,	modified
+sfr = "SSP1SR",	"Memory",	0x4003000c,	4,	base=16,	modified
+sfr = "SSP1IMSC",	"Memory",	0x40030014,	4,	base=16,	modified
+sfr = "SSP1RIS",	"Memory",	0x40030018,	4,	base=16,	modified
+sfr = "SSP1ICR",	"Memory",	0x40030020,	4,	base=16,	modified
+sfr = "SSP1DMACR",	"Memory",	0x40030024,	4,	base=16,	modified
+sfr = "SSP2CR1",	"Memory",	0x400ac004,	4,	base=16,	modified
+sfr = "SSP2CPSR",	"Memory",	0x400ac010,	4,	base=16,	modified
+sfr = "SSP2IMSC",	"Memory",	0x400ac014,	4,	base=16,	modified
+sfr = "SSP2ICR",	"Memory",	0x400ac020,	4,	base=16,	modified
+sfr = "I2C0STAT",	"Memory",	0x4001c004,	4,	base=16,	modified
+sfr = "I2C0DAT",	"Memory",	0x4001c008,	4,	base=16,	modified
+sfr = "I2C0ADR0",	"Memory",	0x4001c00c,	4,	base=16,	modified
+sfr = "I2C0CONCLR",	"Memory",	0x4001c018,	4,	base=16,	modified
+sfr = "I2C0MMCTRL",	"Memory",	0x4001c01c,	4,	base=16,	modified
+sfr = "I2C0ADR1",	"Memory",	0x4001c020,	4,	base=16,	modified
+sfr = "I2C0MASK1",	"Memory",	0x4001c034,	4,	base=16,	modified
+sfr = "I2C0MASK2",	"Memory",	0x4001c038,	4,	base=16,	modified
+sfr = "I2C0MASK3",	"Memory",	0x4001c03c,	4,	base=16,	modified
+sfr = "I2C1DAT",	"Memory",	0x4005c008,	4,	base=16,	modified
+sfr = "I2C1ADR0",	"Memory",	0x4005c00c,	4,	base=16,	modified
+sfr = "I2C1SCLH",	"Memory",	0x4005c010,	4,	base=16,	modified
+sfr = "I2C1SCLL",	"Memory",	0x4005c014,	4,	base=16,	modified
+sfr = "I2C1CONCLR",	"Memory",	0x4005c018,	4,	base=16,	modified
+sfr = "I2C1MMCTRL",	"Memory",	0x4005c01c,	4,	base=16,	modified
+sfr = "I2C1ADR2",	"Memory",	0x4005c024,	4,	base=16,	modified
+sfr = "I2C1ADR3",	"Memory",	0x4005c028,	4,	base=16,	modified
+sfr = "I2C1DATABUFFER",	"Memory",	0x4005c02c,	4,	base=16,	modified
+sfr = "I2C1MASK0",	"Memory",	0x4005c030,	4,	base=16,	modified
+sfr = "I2C1MASK3",	"Memory",	0x4005c03c,	4,	base=16,	modified
+sfr = "I2C2MMCTRL",	"Memory",	0x400a001c,	4,	base=16,	modified
+sfr = "I2C2ADR1",	"Memory",	0x400a0020,	4,	base=16,	modified
+sfr = "I2C2ADR2",	"Memory",	0x400a0024,	4,	base=16,	modified
+sfr = "I2C2DATABUFFER",	"Memory",	0x400a002c,	4,	base=16,	modified
+sfr = "I2C2MASK0",	"Memory",	0x400a0030,	4,	base=16,	modified
+sfr = "I2SDAO",	"Memory",	0x400a8000,	4,	base=16,	modified
+sfr = "I2SDAI",	"Memory",	0x400a8004,	4,	base=16,	modified
+sfr = "I2SSTATE",	"Memory",	0x400a8010,	4,	base=16,	modified
+sfr = "I2STXRATE",	"Memory",	0x400a8020,	4,	base=16,	modified
+sfr = "I2STXBITRATE",	"Memory",	0x400a8028,	4,	base=16,	modified
+sfr = "T0MCR",	"Memory",	0x40004014,	4,	base=16,	modified
+sfr = "T0MR1",	"Memory",	0x4000401c,	4,	base=16,	modified
+sfr = "T0CCR",	"Memory",	0x40004028,	4,	base=16,	modified
+sfr = "T1IR",	"Memory",	0x40008000,	4,	base=16,	modified
+sfr = "T1TC",	"Memory",	0x40008008,	4,	base=16,	modified
+sfr = "T1EMR",	"Memory",	0x4000803c,	4,	base=16,	modified
+sfr = "T2IR",	"Memory",	0x40090000,	4,	base=16,	modified
+sfr = "T2MR0",	"Memory",	0x40090018,	4,	base=16,	modified
+sfr = "T2MR3",	"Memory",	0x40090024,	4,	base=16,	modified
+sfr = "T2CCR",	"Memory",	0x40090028,	4,	base=16,	modified
+sfr = "T2CR1",	"Memory",	0x40090030,	4,	base=16,	modified
+sfr = "T2EMR",	"Memory",	0x4009003c,	4,	base=16,	modified
+sfr = "T3MR3",	"Memory",	0x40094024,	4,	base=16,	modified
+sfr = "T3CR1",	"Memory",	0x40094030,	4,	base=16,	modified
+sfr = "PWM0MR1",	"Memory",	0x4001401c,	4,	base=16,	modified
+sfr = "PWM0CCR",	"Memory",	0x40014028,	4,	base=16,	modified
+sfr = "PWM0CR0",	"Memory",	0x4001402c,	4,	base=16,	modified
+sfr = "PWM0MR4",	"Memory",	0x40014040,	4,	base=16,	modified
+sfr = "PWM0MR5",	"Memory",	0x40014044,	4,	base=16,	modified
+sfr = "PWM0PCR",	"Memory",	0x4001404c,	4,	base=16,	modified
+sfr = "PWM0CTCR",	"Memory",	0x40014070,	4,	base=16,	modified
+sfr = "PWM1IR",	"Memory",	0x40018000,	4,	base=16,	modified
+sfr = "PWM1MCR",	"Memory",	0x40018014,	4,	base=16,	modified
+sfr = "PWM1MR2",	"Memory",	0x40018020,	4,	base=16,	modified
+sfr = "PWM1MR3",	"Memory",	0x40018024,	4,	base=16,	modified
+sfr = "PWM1CR0",	"Memory",	0x4001802c,	4,	base=16,	modified
+sfr = "PWM1MR5",	"Memory",	0x40018044,	4,	base=16,	modified
+sfr = "PWM1MR6",	"Memory",	0x40018048,	4,	base=16,	modified
+sfr = "PWM1PCR",	"Memory",	0x4001804c,	4,	base=16,	modified
+sfr = "PWM1LER",	"Memory",	0x40018050,	4,	base=16,	modified
+sfr = "PWM1CTCR",	"Memory",	0x40018070,	4,	base=16,	modified
+sfr = "MCCON",	"Memory",	0x400b8000,	4,	base=16,	modified
+sfr = "MCCON_SET",	"Memory",	0x400b8004,	4,	base=16,	modified
+sfr = "MCCON_CLR",	"Memory",	0x400b8008,	4,	base=16,	modified
+sfr = "MCCAPCON",	"Memory",	0x400b800c,	4,	base=16,	modified
+sfr = "MCCAPCON_SET",	"Memory",	0x400b8010,	4,	base=16,	modified
+sfr = "MCCAPCON_CLR",	"Memory",	0x400b8014,	4,	base=16,	modified
+sfr = "MCTC0",	"Memory",	0x400b8018,	4,	base=16,	modified
+sfr = "MCTC1",	"Memory",	0x400b801c,	4,	base=16,	modified
+sfr = "MCLIM0",	"Memory",	0x400b8024,	4,	base=16,	modified
+sfr = "MCLIM2",	"Memory",	0x400b802c,	4,	base=16,	modified
+sfr = "MCMAT0",	"Memory",	0x400b8030,	4,	base=16,	modified
+sfr = "MCMAT1",	"Memory",	0x400b8034,	4,	base=16,	modified
+sfr = "MCMAT2",	"Memory",	0x400b8038,	4,	base=16,	modified
+sfr = "MCDT",	"Memory",	0x400b803c,	4,	base=16,	modified
+sfr = "MCCP",	"Memory",	0x400b8040,	4,	base=16,	modified
+sfr = "MCCAP0",	"Memory",	0x400b8044,	4,	base=16,	modified
+sfr = "MCCAP1",	"Memory",	0x400b8048,	4,	base=16,	modified
+sfr = "MCCAP2",	"Memory",	0x400b804c,	4,	base=16,	modified
+sfr = "MCINTEN",	"Memory",	0x400b8050,	4,	base=16,	modified
+sfr = "MCINTEN_SET",	"Memory",	0x400b8054,	4,	base=16,	modified
+sfr = "MCCNTCON",	"Memory",	0x400b805c,	4,	base=16,	modified
+sfr = "MCCNTCON_SET",	"Memory",	0x400b8060,	4,	base=16,	modified
+sfr = "MCCNTCON_CLR",	"Memory",	0x400b8064,	4,	base=16,	modified
+sfr = "MCINTF_SET",	"Memory",	0x400b806c,	4,	base=16,	modified
+sfr = "MCINTF_CLR",	"Memory",	0x400b8070,	4,	base=16,	modified
+sfr = "MCCAP_CLR",	"Memory",	0x400b8074,	4,	base=16,	modified
+sfr = "QEISTAT",	"Memory",	0x400bc004,	4,	base=16,	modified
+sfr = "QEICONF",	"Memory",	0x400bc008,	4,	base=16,	modified
+sfr = "QEIPOS",	"Memory",	0x400bc00c,	4,	base=16,	modified
+sfr = "CMPOS0",	"Memory",	0x400bc014,	4,	base=16,	modified
+sfr = "CMPOS1",	"Memory",	0x400bc018,	4,	base=16,	modified
+sfr = "INXCNT",	"Memory",	0x400bc020,	4,	base=16,	modified
+sfr = "QEILOAD",	"Memory",	0x400bc028,	4,	base=16,	modified
+sfr = "QEITIME",	"Memory",	0x400bc02c,	4,	base=16,	modified
+sfr = "QEIVEL",	"Memory",	0x400bc030,	4,	base=16,	modified
+sfr = "QEICAP",	"Memory",	0x400bc034,	4,	base=16,	modified
+sfr = "VELCOMP",	"Memory",	0x400bc038,	4,	base=16,	modified
+sfr = "FILTERPHA",	"Memory",	0x400bc03c,	4,	base=16,	modified
+sfr = "FILTERPHB",	"Memory",	0x400bc040,	4,	base=16,	modified
+sfr = "FILTERINX",	"Memory",	0x400bc044,	4,	base=16,	modified
+sfr = "WINDOW",	"Memory",	0x400bc048,	4,	base=16,	modified
+sfr = "INXCMP1",	"Memory",	0x400bc04c,	4,	base=16,	modified
+sfr = "INXCMP2",	"Memory",	0x400bc050,	4,	base=16,	modified
+sfr = "QEIIEC",	"Memory",	0x400bcfd8,	4,	base=16,	modified
+sfr = "QEIIES",	"Memory",	0x400bcfdc,	4,	base=16,	modified
+sfr = "QEIINTSTAT",	"Memory",	0x400bcfe0,	4,	base=16,	modified
+sfr = "QEICLR",	"Memory",	0x400bcfe8,	4,	base=16,	modified
+sfr = "QEISET",	"Memory",	0x400bcfec,	4,	base=16,	modified
+sfr = "RTCCCR",	"Memory",	0x40024008,	4,	base=16,	modified
+sfr = "RTCCIIR",	"Memory",	0x4002400c,	4,	base=16,	modified
+sfr = "RTCCTIME1",	"Memory",	0x40024018,	4,	base=16,	modified
+sfr = "RTCCTIME2",	"Memory",	0x4002401c,	4,	base=16,	modified
+sfr = "RTCHOUR",	"Memory",	0x40024028,	4,	base=16,	modified
+sfr = "RTCDOY",	"Memory",	0x40024034,	4,	base=16,	modified
+sfr = "RTCMONTH",	"Memory",	0x40024038,	4,	base=16,	modified
+sfr = "RTCCALIBRATION",	"Memory",	0x40024040,	4,	base=16,	modified
+sfr = "RTCGPREG0",	"Memory",	0x40024044,	4,	base=16,	modified
+sfr = "RTCGPREG1",	"Memory",	0x40024048,	4,	base=16,	modified
+sfr = "RTCGPREG2",	"Memory",	0x4002404c,	4,	base=16,	modified
+sfr = "RTCGPREG3",	"Memory",	0x40024050,	4,	base=16,	modified
+sfr = "RTCGPREG4",	"Memory",	0x40024054,	4,	base=16,	modified
+sfr = "RTCAUXEN",	"Memory",	0x40024058,	4,	base=16,	modified
+sfr = "RTCAUX",	"Memory",	0x4002405c,	4,	base=16,	modified
+sfr = "RTCALMIN",	"Memory",	0x40024064,	4,	base=16,	modified
+sfr = "RTCALDOM",	"Memory",	0x4002406c,	4,	base=16,	modified
+sfr = "RTCALDOW",	"Memory",	0x40024070,	4,	base=16,	modified
+sfr = "RTCALDOY",	"Memory",	0x40024074,	4,	base=16,	modified
+sfr = "RTCALMON",	"Memory",	0x40024078,	4,	base=16,	modified
+sfr = "RTCALYEAR",	"Memory",	0x4002407c,	4,	base=16,	modified
+sfr = "WDFEED",	"Memory",	0x40000008,	4,	base=16,	modified
+sfr = "WDWARNINT",	"Memory",	0x40000014,	4,	base=16,	modified
+sfr = "ADDR4",	"Memory",	0x40034020,	4,	base=16,	modified
+sfr = "DMACINTSTATUS",	"Memory",	0x20080000,	4,	base=16,	modified
+sfr = "DMACINTTCCLEAR",	"Memory",	0x20080008,	4,	base=16,	modified
+sfr = "DMACINTERRCLR",	"Memory",	0x20080010,	4,	base=16,	modified
+sfr = "DMACRAWINTERRORSTATUS",	"Memory",	0x20080018,	4,	base=16,	modified
+sfr = "DMACSOFTBREQ",	"Memory",	0x20080020,	4,	base=16,	modified
+sfr = "DMACSOFTLBREQ",	"Memory",	0x20080028,	4,	base=16,	modified
+sfr = "DMACSOFTLSREQ",	"Memory",	0x2008002c,	4,	base=16,	modified
+sfr = "DMACCONFIGURATION",	"Memory",	0x20080030,	4,	base=16,	modified
+sfr = "DMACSYNC",	"Memory",	0x20080034,	4,	base=16,	modified
+sfr = "DMAREQSEL",	"Memory",	0x400fc1c4,	4,	base=16,	modified
+sfr = "DMACC0SRCADDR",	"Memory",	0x20080100,	4,	base=16,	modified
+sfr = "DMACC0DESTADDR",	"Memory",	0x20080104,	4,	base=16,	modified
+sfr = "DMACC0LLI",	"Memory",	0x20080108,	4,	base=16,	modified
+sfr = "DMACC0CONTROL",	"Memory",	0x2008010c,	4,	base=16,	modified
+sfr = "DMACC0CONFIGURATION",	"Memory",	0x20080110,	4,	base=16,	modified
+sfr = "DMACC1SRCADDR",	"Memory",	0x20080120,	4,	base=16,	modified
+sfr = "DMACC1DESTADDR",	"Memory",	0x20080124,	4,	base=16,	modified
+sfr = "DMACC1LLI",	"Memory",	0x20080128,	4,	base=16,	modified
+sfr = "DMACC1CONTROL",	"Memory",	0x2008012c,	4,	base=16,	modified
+sfr = "DMACC1CONFIGURATION",	"Memory",	0x20080130,	4,	base=16,	modified
+sfr = "DMACC2DESTADDR",	"Memory",	0x20080144,	4,	base=16,	modified
+sfr = "DMACC2LLI",	"Memory",	0x20080148,	4,	base=16,	modified
+sfr = "DMACC2CONTROL",	"Memory",	0x2008014c,	4,	base=16,	modified
+sfr = "DMACC2CONFIGURATION",	"Memory",	0x20080150,	4,	base=16,	modified
+sfr = "DMACC3SRCADDR",	"Memory",	0x20080160,	4,	base=16,	modified
+sfr = "DMACC3DESTADDR",	"Memory",	0x20080164,	4,	base=16,	modified
+sfr = "DMACC3LLI",	"Memory",	0x20080168,	4,	base=16,	modified
+sfr = "DMACC3CONTROL",	"Memory",	0x2008016c,	4,	base=16,	modified
+sfr = "DMACC3CONFIGURATION",	"Memory",	0x20080170,	4,	base=16,	modified
+sfr = "DMACC4SRCADDR",	"Memory",	0x20080180,	4,	base=16,	modified
+sfr = "DMACC4DESTADDR",	"Memory",	0x20080184,	4,	base=16,	modified
+sfr = "DMACC4LLI",	"Memory",	0x20080188,	4,	base=16,	modified
+sfr = "DMACC4CONTROL",	"Memory",	0x2008018c,	4,	base=16,	modified
+sfr = "DMACC4CONFIGURATION",	"Memory",	0x20080190,	4,	base=16,	modified
+sfr = "DMACC5DESTADDR",	"Memory",	0x200801a4,	4,	base=16,	modified
+sfr = "DMACC5LLI",	"Memory",	0x200801a8,	4,	base=16,	modified
+sfr = "DMACC5CONTROL",	"Memory",	0x200801ac,	4,	base=16,	modified
+sfr = "DMACC5CONFIGURATION",	"Memory",	0x200801b0,	4,	base=16,	modified
+sfr = "DMACC6SRCADDR",	"Memory",	0x200801c0,	4,	base=16,	modified
+sfr = "DMACC6DESTADDR",	"Memory",	0x200801c4,	4,	base=16,	modified
+sfr = "DMACC6LLI",	"Memory",	0x200801c8,	4,	base=16,	modified
+sfr = "DMACC6CONTROL",	"Memory",	0x200801cc,	4,	base=16,	modified
+sfr = "DMACC6CONFIGURATION",	"Memory",	0x200801d0,	4,	base=16,	modified
+sfr = "DMACC7SRCADDR",	"Memory",	0x200801e0,	4,	base=16,	modified
+sfr = "DMACC7DESTADDR",	"Memory",	0x200801e4,	4,	base=16,	modified
+sfr = "DMACC7LLI",	"Memory",	0x200801e8,	4,	base=16,	modified
+sfr = "DMACC7CONFIGURATION",	"Memory",	0x200801f0,	4,	base=16,	modified
+sfr = "CRC_MODE",	"Memory",	0x20090000,	4,	base=16,	modified
+sfr = "CRC_SUM",	"Memory",	0x20090008,	4,	base=16,	modified
+sfr = "EECMD",	"Memory",	0x200080,	4,	base=16,	modified
+sfr = "EEADDR",	"Memory",	0x200084,	4,	base=16,	modified
+sfr = "EEWDATA",	"Memory",	0x200088,	4,	base=16,	modified
+sfr = "EERDATA",	"Memory",	0x20008c,	4,	base=16,	modified
+sfr = "EECLKDIV",	"Memory",	0x200094,	4,	base=16,	modified
+sfr = "EEPWRDWN",	"Memory",	0x200098,	4,	base=16,	modified
+sfr = "EEINTENCLR",	"Memory",	0x200fd8,	4,	base=16,	modified
+sfr = "EEINTENSET",	"Memory",	0x200fdc,	4,	base=16,	modified
+sfr = "EEINTSTAT",	"Memory",	0x200fe0,	4,	base=16,	modified
+sfr = "EEINTEN",	"Memory",	0x200fe4,	4,	base=16,	modified
+sfr = "EEINTSTATCLR",	"Memory",	0x200fe8,	4,	base=16,	modified
+sfr = "EEINTSTATSET",	"Memory",	0x200fec,	4,	base=16,	modified
+sfr = "FMSSTART",	"Memory",	0x200020,	4,	base=16,	modified
+sfr = "FMSSTOP",	"Memory",	0x200024,	4,	base=16,	modified
+sfr = "FMSW0",	"Memory",	0x20002c,	4,	base=16,	modified
+sfr = "FMSW1",	"Memory",	0x200030,	4,	base=16,	modified
+sfr = "FMSW2",	"Memory",	0x200034,	4,	base=16,	modified
+sfr = "FMSW3",	"Memory",	0x200038,	4,	base=16,	modified
+sfr = "FMSTAT",	"Memory",	0x200fe0,	4,	base=16,	modified
+sfr = "FMSTATCLR",	"Memory",	0x200fe8,	4,	base=16,	modified
+sfr = "ERSTATUS",	"Memory",	0x40024080,	4,	base=16,	modified
+sfr = "ERCONTROL",	"Memory",	0x40024084,	4,	base=16,	modified
+sfr = "ERCOUNTERS",	"Memory",	0x40024088,	4,	base=16,	modified
+sfr = "ERFIRSTSTAMP0",	"Memory",	0x40024090,	4,	base=16,	modified
+sfr = "ERFIRSTSTAMP1",	"Memory",	0x40024094,	4,	base=16,	modified
+sfr = "ERFIRSTSTAMP2",	"Memory",	0x40024098,	4,	base=16,	modified
+sfr = "ERLASTSTAMP0",	"Memory",	0x400240a0,	4,	base=16,	modified
+sfr = "ERLASTSTAMP1",	"Memory",	0x400240a4,	4,	base=16,	modified
+sfr = "ERLASTSTAMP2",	"Memory",	0x400240a8,	4,	base=16,	modified
+
+
+[SfrGroupInfo]
+group = "Custom", "NVIC", "SYSTICKCSR", "STCTRL", "SYSTICKRVR", "STRELOAD", "SYSTICKCVR"
+group = "Custom", "STCURR", "SYSTICKCALVR", "STCALIB", "SETENA0", "SETENA1", "CLRENA0"
+group = "Custom", "CLRENA1", "SETPEND0", "SETPEND1", "CLRPEND0", "CLRPEND1", "ACTIVE0"
+group = "Custom", "ACTIVE1", "IP0", "IP1", "IP2", "IP3", "IP4"
+group = "Custom", "IP5", "IP6", "IP7", "IP8", "IP9", "IP10"
+group = "Custom", "IP11", "IP12", "IP13", "IP14", "IP15", "CPUIDBR"
+group = "Custom", "ICSR", "VTOR", "AIRCR", "SCR", "CCR", "SHPR0"
+group = "Custom", "SHPR1", "SHPR2", "SHCSR", "CFSR", "HFSR", "DFSR"
+group = "Custom", "MMFAR", "BFAR", "STIR", "MEMMAP", "EXTINT", "EXTMODE"
+group = "Custom", "EXTPOLAR", "RSID", "SCS", "CLKSRCSEL", "PLL0CON", "PLL0CFG"
+group = "Custom", "PLL0STAT", "PLL0FEED", "PLL1CON", "PLL1CFG", "PLL1STAT", "PLL1FEED"
+group = "Custom", "EMCCLKSEL", "CCLKSEL", "USBCLKSEL", "PCLKSEL", "PCON", "PCONP"
+group = "Custom", "PBOOST", "CLKOUTCFG", "RSTCON0", "RSTCON1", "FLASHCFG", "IOCON_P0_00"
+group = "Custom", "IOCON_P0_01", "IOCON_P0_02", "IOCON_P0_03", "IOCON_P0_04", "IOCON_P0_05", "IOCON_P0_06"
+group = "Custom", "IOCON_P0_07", "IOCON_P0_08", "IOCON_P0_09", "IOCON_P0_10", "IOCON_P0_11", "IOCON_P0_12"
+group = "Custom", "IOCON_P0_13", "IOCON_P0_14", "IOCON_P0_15", "IOCON_P0_16", "IOCON_P0_17", "IOCON_P0_18"
+group = "Custom", "IOCON_P0_19", "IOCON_P0_20", "IOCON_P0_21", "IOCON_P0_22", "IOCON_P0_23", "IOCON_P0_24"
+group = "Custom", "IOCON_P0_25", "IOCON_P0_26", "IOCON_P0_27", "IOCON_P0_28", "IOCON_P0_29", "IOCON_P0_30"
+group = "Custom", "IOCON_P0_31", "IOCON_P1_00", "IOCON_P1_01", "IOCON_P1_02", "IOCON_P1_03", "IOCON_P1_04"
+group = "Custom", "IOCON_P1_05", "IOCON_P1_06", "IOCON_P1_07", "IOCON_P1_08", "IOCON_P1_09", "IOCON_P1_10"
+group = "Custom", "IOCON_P1_11", "IOCON_P1_12", "IOCON_P1_13", "IOCON_P1_14", "IOCON_P1_15", "IOCON_P1_16"
+group = "Custom", "IOCON_P1_17", "IOCON_P1_18", "IOCON_P1_19", "IOCON_P1_20", "IOCON_P1_21", "IOCON_P1_22"
+group = "Custom", "IOCON_P1_23", "IOCON_P1_24", "IOCON_P1_25", "IOCON_P1_26", "IOCON_P1_27", "IOCON_P1_28"
+group = "Custom", "IOCON_P1_29", "IOCON_P1_30", "IOCON_P1_31", "IOCON_P2_00", "IOCON_P2_01", "IOCON_P2_02"
+group = "Custom", "IOCON_P2_03", "IOCON_P2_04", "IOCON_P2_05", "IOCON_P2_23", "IOCON_P2_25", "IOCON_P2_26"
+group = "Custom", "IOCON_P2_27", "IOCON_P2_28", "IOCON_P2_29", "IOCON_P2_30", "IOCON_P2_31", "IOCON_P3_00"
+group = "Custom", "IOCON_P3_01", "IOCON_P3_02", "IOCON_P3_03", "IOCON_P3_04", "IOCON_P3_05", "IOCON_P3_06"
+group = "Custom", "IOCON_P3_07", "IOCON_P3_08", "IOCON_P3_09", "IOCON_P3_10", "IOCON_P3_11", "IOCON_P3_12"
+group = "Custom", "IOCON_P3_13", "IOCON_P3_14", "IOCON_P3_15", "IOCON_P3_16", "IOCON_P3_17", "IOCON_P3_18"
+group = "Custom", "IOCON_P3_19", "IOCON_P3_20", "IOCON_P3_21", "IOCON_P3_22", "IOCON_P3_23", "IOCON_P3_24"
+group = "Custom", "IOCON_P3_25", "IOCON_P3_26", "IOCON_P3_27", "IOCON_P3_28", "IOCON_P3_29", "IOCON_P3_30"
+group = "Custom", "IOCON_P3_31", "IOCON_P4_00", "IOCON_P4_01", "IOCON_P4_02", "IOCON_P4_03", "IOCON_P4_04"
+group = "Custom", "IOCON_P4_05", "IOCON_P4_06", "IOCON_P4_07", "IOCON_P4_08", "IOCON_P4_09", "IOCON_P4_10"
+group = "Custom", "IOCON_P4_11", "IOCON_P4_12", "IOCON_P4_13", "IOCON_P4_14", "IOCON_P4_15", "IOCON_P4_16"
+group = "Custom", "IOCON_P4_17", "IOCON_P4_18", "IOCON_P4_19", "IOCON_P4_20", "IOCON_P4_21", "IOCON_P4_22"
+group = "Custom", "IOCON_P4_23", "IOCON_P4_24", "IOCON_P4_25", "IOCON_P4_26", "IOCON_P4_27", "IOCON_P4_28"
+group = "Custom", "IOCON_P4_29", "IOCON_P4_30", "IOCON_P4_31", "IOCON_P5_00", "IOCON_P5_01", "IOCON_P5_02"
+group = "Custom", "IOCON_P5_03", "IOCON_P5_04", "FIO0DIR", "FIO0DIR0", "FIO0DIR1", "FIO0DIR2"
+group = "Custom", "FIO0DIR3", "FIO0DIRL", "FIO0DIRU", "FIO0MASK", "FIO0MASK0", "FIO0MASK1"
+group = "Custom", "FIO0MASK2", "FIO0MASK3", "FIO0MASKL", "FIO0MASKU", "FIO0PIN", "FIO0PIN0"
+group = "Custom", "FIO0PIN1", "FIO0PIN2", "FIO0PIN3", "FIO0PINL", "FIO0PINU", "FIO0SET"
+group = "Custom", "FIO0SET0", "FIO0SET1", "FIO0SET2", "FIO0SET3", "FIO0SETL", "FIO0SETU"
+group = "Custom", "FIO0CLR", "FIO0CLR0", "FIO0CLR1", "FIO0CLR2", "FIO0CLR3", "FIO0CLRL"
+group = "Custom", "FIO0CLRU", "FIO1DIR", "FIO1DIR0", "FIO1DIR1", "FIO1DIR2", "FIO1DIR3"
+group = "Custom", "FIO1DIRL", "FIO1DIRU", "FIO1MASK", "FIO1MASK0", "FIO1MASK1", "FIO1MASK2"
+group = "Custom", "FIO1MASK3", "FIO1MASKL", "FIO1MASKU", "FIO1PIN", "FIO1PIN0", "FIO1PIN1"
+group = "Custom", "FIO1PIN2", "FIO1PIN3", "FIO1PINL", "FIO1PINU", "FIO1SET", "FIO1SET0"
+group = "Custom", "FIO1SET1", "FIO1SET2", "FIO1SET3", "FIO1SETL", "FIO1SETU", "FIO1CLR"
+group = "Custom", "FIO1CLR0", "FIO1CLR1", "FIO1CLR2", "FIO1CLR3", "FIO1CLRL", "FIO1CLRU"
+group = "Custom", "FIO2DIR", "FIO2DIR0", "FIO2DIR1", "FIO2DIR2", "FIO2DIR3", "FIO2DIRL"
+group = "Custom", "FIO2DIRU", "FIO2MASK", "FIO2MASK0", "FIO2MASK1", "FIO2MASK2", "FIO2MASK3"
+group = "Custom", "FIO2MASKL", "FIO2MASKU", "FIO2PIN", "FIO2PIN0", "FIO2PIN1", "FIO2PIN2"
+group = "Custom", "FIO2PIN3", "FIO2PINL", "FIO2PINU", "FIO2SET", "FIO2SET0", "FIO2SET1"
+group = "Custom", "FIO2SET2", "FIO2SET3", "FIO2SETL", "FIO2SETU", "FIO2CLR", "FIO2CLR0"
+group = "Custom", "FIO2CLR1", "FIO2CLR2", "FIO2CLR3", "FIO2CLRL", "FIO2CLRU", "FIO3DIR"
+group = "Custom", "FIO3DIR0", "FIO3DIR1", "FIO3DIR2", "FIO3DIR3", "FIO3DIRL", "FIO3DIRU"
+group = "Custom", "FIO3MASK", "FIO3MASK0", "FIO3MASK1", "FIO3MASK2", "FIO3MASK3", "FIO3MASKL"
+group = "Custom", "FIO3MASKU", "FIO3PIN", "FIO3PIN0", "FIO3PIN1", "FIO3PIN2", "FIO3PIN3"
+group = "Custom", "FIO3PINL", "FIO3PINU", "FIO3SET", "FIO3SET0", "FIO3SET1", "FIO3SET2"
+group = "Custom", "FIO3SET3", "FIO3SETL", "FIO3SETU", "FIO3CLR", "FIO3CLR0", "FIO3CLR1"
+group = "Custom", "FIO3CLR2", "FIO3CLR3", "FIO3CLRL", "FIO3CLRU", "FIO4DIR", "FIO4DIR0"
+group = "Custom", "FIO4DIR1", "FIO4DIR2", "FIO4DIR3", "FIO4DIRL", "FIO4DIRU", "FIO4MASK"
+group = "Custom", "FIO4MASK0", "FIO4MASK1", "FIO4MASK2", "FIO4MASK3", "FIO4MASKL"
+group = "Custom", "FIO4PIN", "FIO4PIN0", "FIO4PIN1", "FIO4PIN2", "FIO4PIN3", "FIO4PINL"
+group = "Custom", "FIO4PINU", "FIO4SET", "FIO4SET0", "FIO4SET1", "FIO4SET2", "FIO4SET3"
+group = "Custom", "FIO4SETL", "FIO4SETU", "FIO4CLR", "FIO4CLR0", "FIO4CLR1", "FIO4CLR2"
+group = "Custom", "FIO4CLR3", "FIO4CLRL", "FIO4CLRU", "FIO5DIR", "FIO5DIR0", "FIO5DIRL"
+group = "Custom", "FIO5MASK", "FIO5MASK0", "FIO5MASKL", "FIO5PIN", "FIO5PIN0", "FIO5PINL"
+group = "Custom", "FIO5SET", "FIO5SET0", "FIO5SETL", "FIO5CLR", "FIO5CLR0", "FIO5CLRL"
+group = "Custom", "IO0INTENR", "IO0INTENF", "IO0INTSTATR", "IO0INTSTATF", "IO0INTCLR", "IO2INTENR"
+group = "Custom", "IO2INTENF", "IO2INTSTATR", "IO2INTSTATF", "IO2INTCLR", "IOINTSTATUS", "EMCControl"
+group = "Custom", "EMCStatus", "EMCConfig", "EMCDynamicRefresh", "EMCDynamicReadConfig", "EMCDynamictRP"
+group = "Custom", "EMCDynamictRAS", "EMCDynamictAPR", "EMCDynamictDAL", "EMCDynamictWR", "EMCDynamictRC"
+group = "Custom", "EMCDynamictRFC", "EMCDynamictXSR", "EMCDynamictRRD", "EMCDynamictMRD", "EMCStaticExtendedWait", "EMCDynamicConfig0"
+group = "Custom", "EMCDynamicRasCas0", "EMCDynamicConfig1", "EMCDynamicRasCas1", "EMCDynamicConfig2", "EMCDynamicRasCas2", "EMCDynamicConfig3"
+group = "Custom", "EMCDynamicRasCas3", "EMCStaticConfig0", "EMCStaticWaitWen0", "EMCStaticWaitOen0", "EMCStaticWaitRd0", "EMCStaticWaitPage0"
+group = "Custom", "EMCStaticWaitWr0", "EMCStaticWaitTurn0", "EMCStaticConfig1", "EMCStaticWaitWen1", "EMCStaticWaitOen1", "EMCStaticWaitRd1"
+group = "Custom", "EMCStaticWaitPage1", "EMCStaticWaitWr1", "EMCStaticWaitTurn1", "EMCStaticConfig2", "EMCStaticWaitWen2", "EMCStaticWaitOen2"
+group = "Custom", "EMCStaticWaitRd2", "EMCStaticWaitPage2", "EMCStaticWaitWr2", "EMCStaticWaitTurn2", "EMCStaticConfig3"
+group = "Custom", "EMCStaticWaitOen3", "EMCStaticWaitRd3", "EMCStaticWaitPage3", "EMCDLYCTL"
+group = "Custom", "EMCCAL", "MAC1", "MAC2", "IPGT", "IPGR", "CLRT"
+group = "Custom", "MAXF", "SUPP", "TEST", "MCFG", "MCMD", "MADR"
+group = "Custom", "MWTD", "MRDD", "MIND", "SA0", "SA1", "SA2"
+group = "Custom", "Command", "Status", "RxDescriptor", "RxStatus", "RxDescriptorNumber", "RxProduceIndex"
+group = "Custom", "RxConsumeIndex", "TxDescriptor", "TxStatus", "TxDescriptorNumber", "TxProduceIndex", "TxConsumeIndex"
+group = "Custom", "TSV0", "TSV1", "RSV", "FlowControlCounter", "FlowControlStatus", "RxFilterCtrl"
+group = "Custom", "RxFilterWoLStatus", "RxFilterWoLClear", "HashFilterL", "HashFilterH", "IntStatus", "IntEnable"
+group = "Custom", "IntClear", "IntSet", "PowerDown", "USBPORTSEL", "USBCLKCTRL", "USBCLKST"
+group = "Custom", "USBINTS", "USBDEVINTST", "USBDEVINTEN", "USBDEVINTCLR", "USBDEVINTSET", "USBDEVINTPRI"
+group = "Custom", "USBEPINTST", "USBEPINTEN", "USBEPINTCLR", "USBEPINTSET", "USBEPINTPRI", "USBREEP"
+group = "Custom", "USBEPIN", "USBMAXPSIZE", "USBRXDATA", "USBRXPLEN", "TDATA", "USBTXPLEN"
+group = "Custom", "USBCTRL", "USBCMDCODE", "USBCMDDATA", "USBDMARST", "USBDMARCLR", "USBDMARSET"
+group = "Custom", "USBUDCAH", "USBEPDMAST", "USBEPDMAEN", "USBEPDMADIS", "USBDMAINTST", "USBDMAINTEN"
+group = "Custom", "USBEOTINTST", "USBEOTINTCLR", "USBEOTINTSET", "USBNDDRINTST", "USBNDDRINTCLR", "USBNDDRINTSET"
+group = "Custom", "USBSYSERRINTST", "USBSYSERRINTCLR", "USBSYSERRINTSET", "HCREVISION", "HCCONTROL", "HCCOMMANDSTATUS"
+group = "Custom", "HCINTERRUPTSTATUS", "HCINTERRUPTENABLE", "HCINTERRUPTDISABLE", "HCHCCA", "HCPERIODCURRENTED", "HCCONTROLHEADED"
+group = "Custom", "HCCONTROLCURRENTED", "HCBULKHEADED", "HCBULKCURRENTED", "HCDONEHEAD", "HCFMINTERVAL", "HCFMREMAINING"
+group = "Custom", "HCFMNUMBER", "HCPERIODICSTART", "HCLSTHRESHOLD", "HCRHDESCRIPTORA", "HCRHDESCRIPTORB", "HCRHSTATUS"
+group = "Custom", "HCRHPORTSTATUS1", "HCRHPORTSTATUS2", "HCRMID", "OTGINTST", "OTGINTEN", "OTGINTSET"
+group = "Custom", "OTGINTCLR", "OTGSTCTRL", "OTGTMR", "I2C_RX", "I2C_TX", "I2C_STS"
+group = "Custom", "I2C_CTL", "I2C_CLKHI", "I2C_CLKLO", "OTGCLKCTRL", "OTGCLKST", "MCIPOWER"
+group = "Custom", "MCICLOCK", "MCIARGUMENT", "MCICOMMAND", "MCIRESPCMD", "MCIRESPONSE0", "MCIRESPONSE1"
+group = "Custom", "MCIRESPONSE2", "MCIRESPONSE3", "MCIDATATIMER", "MCIDATALENGTH", "MCIDATACTRL", "MCIDATACNT"
+group = "Custom", "MCISTATUS", "MCICLEAR", "MCIMASK0", "MCIFIFOCNT", "MCIFIFO0", "MCIFIFO1"
+group = "Custom", "MCIFIFO2", "MCIFIFO3", "MCIFIFO4", "MCIFIFO5", "MCIFIFO6", "MCIFIFO7"
+group = "Custom", "MCIFIFO8", "MCIFIFO9", "MCIFIFO10", "MCIFIFO11", "MCIFIFO12", "MCIFIFO13"
+group = "Custom", "MCIFIFO14", "MCIFIFO15", "U0RBRTHR", "U0DLL", "U0RBR", "U0THR"
+group = "Custom", "U0IER", "U0DLM", "U0FCR", "U0IIR", "U0LCR", "U0LSR"
+group = "Custom", "U0SCR", "U0ACR", "U0ICR", "U0FDR", "U0TER", "U0RS485CTRL"
+group = "Custom", "U0ADRMATCH", "U0RS485DLY", "U1RBRTHR", "U1DLL", "U1RBR", "U1THR"
+group = "Custom", "U1IER", "U1DLM", "U1FCR", "U1IIR", "U1LCR", "U1MCR"
+group = "Custom", "U1LSR", "U1MSR", "U1SCR", "U1ACR", "U1FDR", "U1TER"
+group = "Custom", "U1RS485CTRL", "U1ADRMATCH", "U1RS485DLY", "U2RBRTHR", "U2DLL", "U2RBR"
+group = "Custom", "U2THR", "U2IER", "U2DLM", "U2FCR", "U2IIR", "U2LCR"
+group = "Custom", "U2LSR", "U2SCR", "U2ACR", "U2ICR", "U2FDR", "U2TER"
+group = "Custom", "U2RS485CTRL", "U2ADRMATCH", "U2RS485DLY", "U3RBRTHR", "U3DLL", "U3RBR"
+group = "Custom", "U3THR", "U3IER", "U3DLM", "U3FCR", "U3IIR", "U3LCR"
+group = "Custom", "U3LSR", "U3SCR", "U3ACR", "U3ICR", "U3FDR", "U3TER"
+group = "Custom", "U3RS485CTRL", "U3ADRMATCH", "U3RS485DLY", "U4RBRTHR", "U4DLL", "U4RBR"
+group = "Custom", "U4THR", "U4IER", "U4DLM", "U4FCR", "U4IIR", "U4LCR"
+group = "Custom", "U4LSR", "U4SCR", "U4ACR", "U4ICR", "U4FDR", "U4OSR"
+group = "Custom", "U4SCICTRL", "U4RS485CTRL", "U4ADRMATCH", "U4RS485DLY", "U4SYNCCTRL", "U4TER"
+group = "Custom", "AFMR", "SFF_SA", "SFF_GRP_SA", "EFF_SA", "EFF_GRP_SA", "ENDOFTABLE"
+group = "Custom", "LUTERRAD", "LUTERR", "FCANIE", "FCANIC0", "FCANIC1", "CANTXSR"
+group = "Custom", "CANRXSR", "CANMSR", "CAN1MOD", "CAN1CMR", "CAN1GSR", "CAN1ICR"
+group = "Custom", "CAN1IER", "CAN1BTR", "CAN1EWL", "CAN1SR", "CAN1RFS", "CAN1RID"
+group = "Custom", "CAN1RDA", "CAN1TID1", "CAN1TDA2", "CAN1TDB2", "CAN1TFI3", "CAN1TID3"
+group = "Custom", "CAN1TDA3", "CAN1TDB3", "CAN2MOD", "CAN2GSR", "CAN2ICR"
+group = "Custom", "CAN2IER", "CAN2BTR", "CAN2EWL", "CAN2SR", "CAN2RFS", "CAN2RID", "CAN2TFI1", "CAN2TID1", "CAN2TDA1"
+group = "Custom", "CAN2TFI2", "CAN2TID2", "CAN2TFI3", "CAN2TDB3", "CANSLEEPCLR", "CANWAKEFLAGS", "SSP0CR0", "SSP0CR1"
+group = "Custom", "SSP0DR", "SSP0IMSC", "SSP0RIS", "SSP1CR0", "SSP1CR1", "SSP1DR", "SSP1SR", "SSP1IMSC", "SSP1RIS", "SSP1ICR", "SSP1DMACR", "SSP2CR1", "SSP2CPSR", "SSP2IMSC", "SSP2ICR", "I2C0STAT"
+group = "Custom", "I2C0DAT", "I2C0ADR0", "I2C0CONCLR", "I2C0MMCTRL"
+group = "Custom", "I2C0ADR1", "I2C0MASK1"
+group = "Custom", "I2C0MASK2", "I2C0MASK3", "I2C1DAT", "I2C1ADR0"
+group = "Custom", "I2C1SCLH", "I2C1SCLL", "I2C1CONCLR", "I2C1MMCTRL", "I2C1ADR2"
+group = "Custom", "I2C1ADR3", "I2C1DATABUFFER", "I2C1MASK0", "I2C1MASK3", "I2C2MMCTRL", "I2C2ADR1", "I2C2ADR2", "I2C2DATABUFFER"
+group = "Custom", "I2C2MASK0", "I2SDAO", "I2SDAI", "I2SSTATE"
+group = "Custom", "I2STXRATE", "I2STXBITRATE", "T0MCR", "T0MR1", "T0CCR", "T1IR", "T1TC", "T1EMR"
+group = "Custom", "T2IR"
+group = "Custom", "T2MR0", "T2MR3", "T2CCR"
+group = "Custom", "T2CR1", "T2EMR"
+group = "Custom", "T3MR3", "T3CR1", "PWM0MR1", "PWM0CCR", "PWM0CR0"
+group = "Custom", "PWM0MR4", "PWM0MR5", "PWM0PCR", "PWM0CTCR"
+group = "Custom", "PWM1IR", "PWM1MCR", "PWM1MR2", "PWM1MR3", "PWM1CR0", "PWM1MR5", "PWM1MR6", "PWM1PCR", "PWM1LER"
+group = "Custom", "PWM1CTCR", "MCCON", "MCCON_SET", "MCCON_CLR", "MCCAPCON", "MCCAPCON_SET"
+group = "Custom", "MCCAPCON_CLR", "MCTC0", "MCTC1", "MCLIM0"
+group = "Custom", "MCLIM2", "MCMAT0", "MCMAT1", "MCMAT2", "MCDT", "MCCP"
+group = "Custom", "MCCAP0", "MCCAP1", "MCCAP2", "MCINTEN", "MCINTEN_SET"
+group = "Custom", "MCCNTCON", "MCCNTCON_SET", "MCCNTCON_CLR", "MCINTF_SET", "MCINTF_CLR"
+group = "Custom", "MCCAP_CLR", "QEISTAT", "QEICONF", "QEIPOS"
+group = "Custom", "CMPOS0", "CMPOS1", "INXCNT", "QEILOAD"
+group = "Custom", "QEITIME", "QEIVEL", "QEICAP", "VELCOMP", "FILTERPHA", "FILTERPHB"
+group = "Custom", "FILTERINX", "WINDOW", "INXCMP1", "INXCMP2", "QEIIEC", "QEIIES"
+group = "Custom", "QEIINTSTAT", "QEICLR", "QEISET", "RTCCCR"
+group = "Custom", "RTCCIIR", "RTCCTIME1", "RTCCTIME2", "RTCHOUR", "RTCDOY", "RTCMONTH", "RTCCALIBRATION", "RTCGPREG0", "RTCGPREG1", "RTCGPREG2", "RTCGPREG3"
+group = "Custom", "RTCGPREG4", "RTCAUXEN", "RTCAUX", "RTCALMIN"
+group = "Custom", "RTCALDOM", "RTCALDOW", "RTCALDOY", "RTCALMON", "RTCALYEAR", "WDFEED", "WDWARNINT"
+group = "Custom", "ADDR4", "DMACINTSTATUS", "DMACINTTCCLEAR", "DMACINTERRCLR", "DMACRAWINTERRORSTATUS", "DMACSOFTBREQ", "DMACSOFTLBREQ", "DMACSOFTLSREQ", "DMACCONFIGURATION", "DMACSYNC", "DMAREQSEL"
+group = "Custom", "DMACC0SRCADDR", "DMACC0DESTADDR", "DMACC0LLI", "DMACC0CONTROL", "DMACC0CONFIGURATION", "DMACC1SRCADDR"
+group = "Custom", "DMACC1DESTADDR", "DMACC1LLI", "DMACC1CONTROL", "DMACC1CONFIGURATION", "DMACC2DESTADDR"
+group = "Custom", "DMACC2LLI", "DMACC2CONTROL", "DMACC2CONFIGURATION", "DMACC3SRCADDR", "DMACC3DESTADDR", "DMACC3LLI"
+group = "Custom", "DMACC3CONTROL", "DMACC3CONFIGURATION", "DMACC4SRCADDR", "DMACC4DESTADDR", "DMACC4LLI", "DMACC4CONTROL"
+group = "Custom", "DMACC4CONFIGURATION", "DMACC5DESTADDR", "DMACC5LLI", "DMACC5CONTROL", "DMACC5CONFIGURATION"
+group = "Custom", "DMACC6SRCADDR", "DMACC6DESTADDR", "DMACC6LLI", "DMACC6CONTROL", "DMACC6CONFIGURATION", "DMACC7SRCADDR"
+group = "Custom", "DMACC7DESTADDR", "DMACC7LLI", "DMACC7CONFIGURATION", "CRC_MODE"
+group = "Custom", "CRC_SUM", "EECMD", "EEADDR", "EEWDATA", "EERDATA", "EECLKDIV", "EEPWRDWN", "EEINTENCLR", "EEINTENSET", "EEINTSTAT"
+group = "Custom", "EEINTEN", "EEINTSTATCLR", "EEINTSTATSET", "FMSSTART", "FMSSTOP", "FMSW0"
+group = "Custom", "FMSW1", "FMSW2", "FMSW3", "FMSTAT", "FMSTATCLR", "ERSTATUS"
+group = "Custom", "ERCONTROL", "ERCOUNTERS", "ERFIRSTSTAMP0", "ERFIRSTSTAMP1", "ERFIRSTSTAMP2", "ERLASTSTAMP0"
+group = "Custom", "ERLASTSTAMP1", "ERLASTSTAMP2"
