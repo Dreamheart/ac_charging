@@ -1,5 +1,5 @@
 [DebugChecksum]
-Checksum=662156666
+Checksum=1756634155
 [DisAssemblyWindow]
 NumStates=_ 1
 State 1=_ 1
@@ -72,9 +72,10 @@ UseAuto=0
 TypeViolation=1
 UnspecRange=1
 ActionState=1
-[Trace1]
-Enabled=0
-ShowSource=1
+[JLinkDriver]
+TraceBufferSize=0x00010000
+TraceStallIfFIFOFull=0x00000000
+TracePortSize=0x00000004
 [struct_types]
 Fmt0=struct KEYBOARD-code	4	0
 [array_types]
@@ -95,6 +96,12 @@ Fmt10={W}0:id2	4	0
 Fmt11={W}0:result	4	0
 Fmt12={W}0:tmp	4	0
 Fmt13={W}0:tmp1	4	0
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\..\Windows\system32}.36.11" 0 0 1 "" 0 "" 0
+Bp1=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\app\GPRS.c}.437.13" 0 0 1 "" 0 "" 0
+Count=2
 [Log file]
 LoggingEnabled=_ 0
 LogFile=_ ""
@@ -102,20 +109,6 @@ Category=_ 0
 [TermIOLog]
 LoggingEnabled=_ 0
 LogFile=_ ""
-[CallStackLog]
-Enabled=0
-[DriverProfiling]
-Enabled=0
-Mode=0
-Graph=0
-Symbiont=0
-Exclusions=
-[Disassemble mode]
-mode=0
-[Breakpoints2]
-Bp0=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\..\Windows\system32}.36.11" 0 0 1 "" 0 "" 0
-Bp1=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\app\GPRS.c}.437.13" 0 0 1 "" 0 "" 0
-Count=2
 [Aliases]
 A0=_ "D:\lpc17xx-20110317\lpc17xx-20110315\lpc17xx\app\main.c" "E:\换电站\南瑞换电站项目资料\lpc17xx-20110315\new\lpc17xx从控制器\app\main.c"
 A1=_ "D:\lpc17xx-20110317\lpc17xx-20110315\lpc17xx\drv\lpc17xx_can.c" "F:\换电站\3000W\lpc17xx从控制器\11.04\drv\lpc17xx_can.c"
@@ -126,3 +119,14 @@ A5=_ "D:\智能交流桩无屏版本\AC Spots20150307\AC Spots Source\app\Main.c" ""
 A6=_ "F:\换电站\lpc17xx从控制器3000W\9.7\app\main.c" "F:\换电站\3000W\lpc17xx从控制器\11.03\app\main.c"
 Count=7
 SuppressDialog=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
