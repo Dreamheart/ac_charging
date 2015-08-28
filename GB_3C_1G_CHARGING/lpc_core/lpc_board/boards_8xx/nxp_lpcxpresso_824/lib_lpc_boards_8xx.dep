@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3334461765</fileChecksum>
+  <configuration>
+    <name>nxp_lpcxpresso_824</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_common\ring_buffer.h</file>
+      <file>$PROJ_DIR$\..\..\board_common\board_api.h</file>
+      <file>$PROJ_DIR$\board_sysinit.c</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\fmc_8xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\CMSIS\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\iar_output\Obj\board_sysinit.o</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\syscon_8xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\pmu_8xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\spis_8xx.h</file>
+      <file>$PROJ_DIR$\iar_output\Obj\board_sysinit.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\wwdt_8xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\dma_8xx.h</file>
+      <file>$PROJ_DIR$\board.c</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\error_8xx.h</file>
+      <file>$PROJ_DIR$\..\..\board_common\retarget.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\spim_8xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\iar_output\Exe\board_nxp_lpcxpresso_824.a</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\config_82x\cmsis.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\acmp_8xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\iocon_8xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\spi_8xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_common\iap.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\clock_8xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\i2cs_8xx.h</file>
+      <file>$PROJ_DIR$\iar_output\Obj\board.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\CMSIS\CMSIS\Include\core_cm0plus.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yfuns.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\i2c_common_8xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\i2cm_8xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_common\lpc_types.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\sct_8xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\inmux_8xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\rom_uart_8xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\rom_pwr_8xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\chip.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\romapi_8xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\mrt_8xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\pinint_8xx.h</file>
+      <file>$PROJ_DIR$\iar_output\Obj\board.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\uart_8xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\config_82x\sys_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\CMSIS\CMSIS\Include\core_cmInstr.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\spi_common_8xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\crc_8xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\swm_8xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\wkt_8xx.h</file>
+      <file>$PROJ_DIR$\board.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\rom_i2c_8xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\adc_8xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\sct_pwm_8xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_8xx\gpio_8xx.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\board_sysinit.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59 44 37 22 0 60 14 53 38 20 47 25 51 24 33 52 54 7 8 45 29 18 63 43 41 10 30 27 57 4 48 11 26 56 66 46 50 1 58 15 39 65 28 55 36 35 31 21 12 64 16 40 2 6 5 62</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\board.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59 44 37 22 0 60 14 53 38 20 47 25 51 24 33 52 54 7 8 45 29 18 63 43 41 10 30 27 57 4 48 11 26 56 66 46 50 1 58 15 39 65 28 55 36 35 31 21 12 64 16 40 2 6 5 62 61 42 19 34</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59 44 37 22 0 60 14 53 38 20 47 25 51 24 33 52 54 7 8 45 29 18 63 43 41 10 30 27 57 4 48 11 26 56 66 46 50 1 58 15 39 65 28 55 36 35 31 21 12 64 16 40 2 6 5 62 61 42 19 34 3</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>IARCHIVE</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+</project>
+
+

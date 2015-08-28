@@ -65,7 +65,7 @@ void TIMER0_IRQHandler ( void )
            tmpcnt = 0;
            SetOutput(PWMCP);
        }
-       else if( tmpcnt == 25 )
+       else if( tmpcnt == 89 )
        {
            ClrOutput( PWMCP );
        }

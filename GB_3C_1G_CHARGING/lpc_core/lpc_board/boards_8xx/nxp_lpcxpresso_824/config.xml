@@ -1,0 +1,9 @@
+<LPCOpenCfg>
+	<symbol name="prjChipFamilyDir" value="chip_8xx"/>
+	<symbol name="prjChipFamily" value="82x"/>
+	<symbol name="prjExampleBaseDir" value="applications/lpc8xx"/>
+	<symbol name="prjBoardFamilyDir" value="boards_8xx"/>
+	<symbol name="varExStartupFile" value="cr_startup_lpc82x.c"/>
+	<!-- FIXME: See if config needs to be renamed as config_81x -->
+	<symbol name="varChipConfigDir" value="${varChipLibSrcDir}/config_82x"/>
+</LPCOpenCfg>

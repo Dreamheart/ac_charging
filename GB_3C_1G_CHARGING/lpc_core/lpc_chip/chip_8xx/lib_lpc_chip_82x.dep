@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>4107060684</fileChecksum>
+  <configuration>
+    <name>chip_82x_lib</name>
+    <outputs>
+      <file>$PROJ_DIR$\sysinit_8xx.c</file>
+      <file>$PROJ_DIR$\uart_8xx.c</file>
+      <file>$PROJ_DIR$\stopwatch_8xx.c</file>
+      <file>$PROJ_DIR$\swm_8xx.c</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\spis_8xx.o</file>
+      <file>$PROJ_DIR$\wwdt_8xx.c</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\sct_pwm_8xx.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\iocon_8xx.pbi</file>
+      <file>$PROJ_DIR$\rom_pwr_8xx.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\clock_8xx.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\dma_8xx.o</file>
+      <file>$PROJ_DIR$\rom_i2c_8xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\i2cm_8xx.h</file>
+      <file>$PROJ_DIR$\fmc_8xx.h</file>
+      <file>$PROJ_DIR$\iocon_8xx.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\chip_8xx.pbi</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\uart_8xx.o</file>
+      <file>$PROJ_DIR$\config_82x\cmsis.h</file>
+      <file>$PROJ_DIR$\spi_common_8xx.h</file>
+      <file>$PROJ_DIR$\spis_8xx.h</file>
+      <file>$PROJ_DIR$\sct_pwm_8xx.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\clock_8xx.pbi</file>
+      <file>$PROJ_DIR$\pinint_8xx.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\sysinit_8xx.pbi</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\swm_8xx.pbi</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Exe\chip_82x_lib.a</file>
+      <file>$PROJ_DIR$\wwdt_8xx.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\gpio_8xx.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\ring_buffer.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\clock_8xx.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\iap.pbi</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\stopwatch_8xx.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\i2c_common_8xx.o</file>
+      <file>$PROJ_DIR$\..\chip_common\iap.h</file>
+      <file>$PROJ_DIR$\..\..\..\CMSIS\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\sct_8xx.o</file>
+      <file>$PROJ_DIR$\..\..\..\CMSIS\CMSIS\Include\core_cm0plus.h</file>
+      <file>$PROJ_DIR$\acmp_8xx.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\dma_8xx.pbi</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\pmu_8xx.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\swm_8xx.h</file>
+      <file>$PROJ_DIR$\..\chip_common\lpc_types.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\syscon_8xx.pbi</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\swm_8xx.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\i2c_common_8xx.h</file>
+      <file>$PROJ_DIR$\spi_8xx.h</file>
+      <file>$PROJ_DIR$\spim_8xx.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\ring_buffer.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\sct_8xx.pbi</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\i2cs_8xx.pbi</file>
+      <file>$PROJ_DIR$\pmu_8xx.h</file>
+      <file>$PROJ_DIR$\gpio_8xx.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\sct_pwm_8xx.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\syscon_8xx.h</file>
+      <file>$PROJ_DIR$\config_82x\sys_config.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\spis_8xx.pbi</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\spi_8xx.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\uart_8xx.pbi</file>
+      <file>$PROJ_DIR$\uart_8xx.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\crc_8xx.o</file>
+      <file>$PROJ_DIR$\adc_8xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\CMSIS\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\stopwatch_8xx.pbi</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\wwdt_8xx.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\chip_8xx.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\i2cm_8xx.pbi</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\pinint_8xx.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\pinint_8xx.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\spi_8xx.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\acmp_8xx.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\spim_8xx.pbi</file>
+      <file>$PROJ_DIR$\dma_8xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\rom_uart_8xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\adc_8xx.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\acmp_8xx.pbi</file>
+      <file>$PROJ_DIR$\crc_8xx.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\adc_8xx.pbi</file>
+      <file>$PROJ_DIR$\error_8xx.h</file>
+      <file>$PROJ_DIR$\romapi_8xx.h</file>
+      <file>$PROJ_DIR$\chip.h</file>
+      <file>$PROJ_DIR$\..\chip_common\stopwatch.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\i2c_common_8xx.pbi</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\wwdt_8xx.pbi</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\sysinit_8xx.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\gpio_8xx.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\syscon_8xx.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\crc_8xx.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\wkt_8xx.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\i2cs_8xx.h</file>
+      <file>$PROJ_DIR$\sct_8xx.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\i2cs_8xx.o</file>
+      <file>$PROJ_DIR$\mrt_8xx.h</file>
+      <file>$PROJ_DIR$\inmux_8xx.h</file>
+      <file>$PROJ_DIR$\..\chip_common\ring_buffer.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\i2cm_8xx.o</file>
+      <file>$PROJ_DIR$\wkt_8xx.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\iocon_8xx.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\pmu_8xx.pbi</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\spim_8xx.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\iap.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\wkt_8xx.pbi</file>
+      <file>$PROJ_DIR$\sct_pwm_8xx.c</file>
+      <file>$PROJ_DIR$\iocon_8xx.c</file>
+      <file>$PROJ_DIR$\spim_8xx.c</file>
+      <file>$PROJ_DIR$\..\chip_common\iap.c</file>
+      <file>$PROJ_DIR$\spis_8xx.c</file>
+      <file>$PROJ_DIR$\spi_8xx.c</file>
+      <file>$PROJ_DIR$\clock_8xx.c</file>
+      <file>$PROJ_DIR$\pinint_8xx.c</file>
+      <file>$PROJ_DIR$\syscon_8xx.c</file>
+      <file>$PROJ_DIR$\wkt_8xx.c</file>
+      <file>$PROJ_DIR$\i2c_common_8xx.c</file>
+      <file>$PROJ_DIR$\crc_8xx.c</file>
+      <file>$PROJ_DIR$\adc_8xx.c</file>
+      <file>$PROJ_DIR$\dma_8xx.c</file>
+      <file>$PROJ_DIR$\i2cs_8xx.c</file>
+      <file>$PROJ_DIR$\pmu_8xx.c</file>
+      <file>$PROJ_DIR$\acmp_8xx.c</file>
+      <file>$PROJ_DIR$\chip_8xx.c</file>
+      <file>$PROJ_DIR$\i2cm_8xx.c</file>
+      <file>$PROJ_DIR$\gpio_8xx.c</file>
+      <file>$PROJ_DIR$\..\chip_common\ring_buffer.c</file>
+      <file>$PROJ_DIR$\sct_8xx.c</file>
+      <file>$PROJ_DIR$\iar_output\chip_82x_lib\Obj\lib_lpc_chip_82x.pbd</file>
+      <file>$PROJ_DIR$\..\..\..\..\applications\lpc8xx\examples\periph\periph_gpio\dma_uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\applications\lpc8xx\examples\periph\periph_gpio\Dio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\applications\lpc8xx\examples\periph\periph_dma_uart\dma_uart.c</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\sysinit_8xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uart_8xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stopwatch_8xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106 91</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106 91</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\swm_8xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\wwdt_8xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>IARCHIVE</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\sct_pwm_8xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\iocon_8xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 110</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\spim_8xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 112</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\chip_common\iap.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 113</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\spis_8xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\spi_8xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\clock_8xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\pinint_8xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\syscon_8xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\wkt_8xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\i2c_common_8xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\crc_8xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\adc_8xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\dma_8xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\i2cs_8xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\pmu_8xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\acmp_8xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 77</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\chip_8xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 70</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\i2cm_8xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\gpio_8xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 96</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\chip_common\ring_buffer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 12 74 43 101 31 80 58 76 83 107 45 95 99</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29 12 74 43 101 31 80 58 76 83 107 45 95 99</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\sct_8xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 45 95 12 74 43 101 31 80 58 99 60 18 39 37 48 82 67 89 36 88 11 8 81 59 32 15 44 14 23 55 40 86 56 105 64 107 109 27 103 21 50 19 13 49 102 51 20 66 79 106</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+

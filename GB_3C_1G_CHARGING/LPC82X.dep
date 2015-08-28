@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3589599732</fileChecksum>
+  <configuration>
+    <name>iflash_nxp_lpcxpresso_824</name>
+    <outputs>
+      <file>$PROJ_DIR$\app\crc.c</file>
+      <file>$PROJ_DIR$\app\GPRS.c</file>
+      <file>$PROJ_DIR$\app\Charging.c</file>
+      <file>$PROJ_DIR$\iar_startup_lpc82x.s</file>
+      <file>$PROJ_DIR$\app\main.c</file>
+      <file>$PROJ_DIR$\app\Meter.c</file>
+      <file>$PROJ_DIR$\app\remoteupdate.c</file>
+      <file>$PROJ_DIR$\lpc_core\sysinit.c</file>
+      <file>$PROJ_DIR$\bsp\adc.c</file>
+      <file>$PROJ_DIR$\bsp\AT45DB081.c</file>
+      <file>$PROJ_DIR$\bsp\Dio.c</file>
+      <file>$PROJ_DIR$\bsp\dma_uart.c</file>
+      <file>$PROJ_DIR$\bsp\Eeprom.c</file>
+      <file>$PROJ_DIR$\bsp\iap.c</file>
+    </outputs>
+  </configuration>
+</project>
+
+
