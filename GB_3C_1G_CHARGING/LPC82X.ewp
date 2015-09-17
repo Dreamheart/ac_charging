@@ -718,7 +718,7 @@
         </option>
         <option>
           <name>IlinkIcfFile</name>
-          <state>E:\DH_WORK\software\LPC824_tengshi\LPC82X.icf</state>
+          <state>$WS_DIR$\LPC82X.icf</state>
         </option>
         <option>
           <name>IlinkIcfFileSlave</name>
